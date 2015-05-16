@@ -1,0 +1,21 @@
+-bash: module: line 1: syntax error: unexpected end of file
+-bash: error importing function definition for `BASH_FUNC_module'
+-bash: module: line 1: syntax error: unexpected end of file
+-bash: error importing function definition for `BASH_FUNC_module'
+Application start failed.
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.ArrayList.<init>(ArrayList.java:132)
+	at java.util.ArrayList.<init>(ArrayList.java:139)
+	at org.svvrl.goal.core.aut.SetEvent.<init>(SetEvent.java:42)
+	at org.svvrl.goal.core.aut.GraphicComponentSet.add(GraphicComponentSet.java:132)
+	at org.svvrl.goal.core.aut.Automaton.addTransition(Automaton.java:1358)
+	at org.svvrl.goal.core.aut.Automaton.copyInfo(Automaton.java:2728)
+	at org.svvrl.goal.core.aut.Automaton.clone(Automaton.java:2740)
+	at org.svvrl.goal.core.aut.fsa.FSA.clone(FSA.java:84)
+	at org.svvrl.goal.core.aut.fsa.FSA.clone(FSA.java:1)
+	at org.svvrl.goal.cmd.ReduceExtension$ReduceCommand.eval(ReduceExtension.java:82)
+	at org.svvrl.goal.cmd.SetStmt.eval(SetStmt.java:59)
+	at org.svvrl.goal.cmd.CmdHandler.start(CmdHandler.java:42)
+	at org.svvrl.goal.core.CorePlugin.startApplication(CorePlugin.java:174)
+	at org.java.plugin.boot.Boot.boot(Boot.java:346)
+	at org.java.plugin.boot.Boot.main(Boot.java:243)

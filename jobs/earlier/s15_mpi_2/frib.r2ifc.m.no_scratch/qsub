@@ -1,0 +1,1 @@
+qsub -wd /home/ubelix/sm/dw07r324/jobs/s15_mpi_2/frib.r2ifc.m.no_scratch -V -M daniel.weibel@unifr.ch -m bea -l h_cpu=48:00:00,h_vmem=4G -pe smp 3 -R y -q mpi.q -o stdout -e stderr -N frib.r2ifc.m.no_scratch /home/ubelix/sm/dw07r324/scripts/complement_no_scratch.sh -d /home/ubelix/sm/dw07r324/data/test_set_s15.tar.gz

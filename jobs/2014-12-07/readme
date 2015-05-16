@@ -1,0 +1,13 @@
+Solution for the jobs that didn't finish in 72 hours on mpi.q. Divided the data set in 5 partitions and started a separate job for each partition (72 hours, mpi.q). Each job should now be able to finish its partition. In the end, the out files of the partition jobs can simply be concatenated to the master out file of every experiment (concat_part_out.sh).
+
+Currently running
+ * rank.tr.ro.15       --> Didn't finish, restarted with 10 partitions
+ * fribourg.20t600m1   --> Finished
+ * fribourg.20t1200m2  --> Partition 2 of 5 didn't finish, restarted as partitions 3 of 10 and 4 of 10
+
+Further running are
+ * fribourg.m1.20t600m1     --> Finished
+ * fribourg.m1.20t1200m2    --> Finished
+ * fribourg.m1.m2.20t600m1  --> Finished
+ * fribourg.m1.m2.20t1200m2 --> Finished
+but without partitions, because they should be able to do the whole test set in 72 hours.

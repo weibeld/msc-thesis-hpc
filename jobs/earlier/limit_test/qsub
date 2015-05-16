@@ -1,0 +1,1 @@
+qsub -wd /home/ubelix/sm/dw07r324/jobs/limit_test -V -M daniel.weibel@unifr.ch -m a -l h_cpu=01:00:00,h_vmem=4G -pe smp 2 -R y -q short.q -o stdout -e stderr -N limit_test /home/ubelix/sm/dw07r324/jobs/limit_test/run.sh

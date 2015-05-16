@@ -1,0 +1,50 @@
+1.
+Fri Sep 12 21:36:04 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 3
+  States:        2
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+2.
+Fri Sep 12 21:36:05 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        7
+  Transitions:   28
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+3.
+Fri Sep 12 21:36:05 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 3
+  States:        5
+  Transitions:   53
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 367 sec.
+
+4.
+Fri Sep 12 21:42:13 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 3
+  States:        5
+  Transitions:   66
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... 

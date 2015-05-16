@@ -1,0 +1,14 @@
+# Starting date:             2015-05-16 00:52:11
+# Cluster job name:          piterman.eq.sim.ro.michel
+# Cluster job ID:            7360453
+# Cluster node:              jnode19
+# Cluster queue:             highmem.q
+# Algorithm:                 piterman -eq -sim -ro
+# Input data:                michel.tar.gz
+# Memory limit (Java heap):  14G
+# Timeout (CPU time):        No timeout
+states,t_out,m_out,real_t,cpu_t,dt,da,file
+23,N,N,1.666,2.392,,,michel_n1.gff
+251,N,N,7.887,4.887,,,michel_n2.gff
+5167,N,N,82.251,87.549,,,michel_n3.gff
+NA,N,Y,7611.195,7940.820,,,michel_n4.gff

@@ -1,0 +1,1 @@
+qsub -cwd -V -M daniel.weibel@unifr.ch -m a -l h_cpu=00:10:00,h_vmem=256M -q all.q -o test.out -e test.err -N test run.sh

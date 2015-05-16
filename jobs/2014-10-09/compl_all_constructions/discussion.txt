@@ -1,0 +1,21 @@
+Discussion of the small complementation test with all constructions
+
+dw-10.10.2014
+
+				Completed out of 10 (small.tar.gz)	Produced unreachable
+Algorithm			(timout: 600s, mem out: 1G)		and dead states		Has -r option
+ramsey -macc -min		2 (8 timeouts)				0			1
+safra				10 (1 timeout in reduce)		0			0
+modifiedsafra			9 (1 mem out, 1 timeout in reduce)	0			0
+ms				4 (1 timeout, 5 mem outs)		0			0
+wapa				0 (10 timeouts)				?			0
+waa				0 (10 timeouts)				?			0
+piterman -eq -macc -sim -ro	10					1			1
+rank -tr -ro -macc		10					1			1
+slice -p -macc -ro -madj -eg	10					1			1
+
+Conclusion
+With the size 15 automata, only piterman, rank, slice, and safra (modifiedsafra) can be used. Wapa, waa (for sure) and ms, ramsey (most probably) are too slow. In the paper Tsai (2010), also piterman, rank, and slice are used.
+
+It seems (but not sure) that the algorithms having no -r option (safra, modifiedsafra, ms, wapa, waa) produce no unreachable and dead states. From the ones we can compare, if we set the -r option for piterman, rank, and slice, and not for safra, then all constructions should produce no unreachable and dead states and the results thus be comparable.
+

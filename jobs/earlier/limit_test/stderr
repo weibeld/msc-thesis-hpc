@@ -1,0 +1,15 @@
+-bash: module: line 1: syntax error: unexpected end of file
+-bash: error importing function definition for `module'
+Exception in thread "Thread-1" java.lang.OutOfMemoryError: Java heap space
+	at java.util.ArrayList.<init>(ArrayList.java:132)
+	at java.util.ArrayList.<init>(ArrayList.java:139)
+	at org.svvrl.goal.core.aut.GraphicComponentSet.<init>(GraphicComponentSet.java:33)
+	at org.svvrl.goal.core.aut.TransitionSet.<init>(TransitionSet.java:25)
+	at org.svvrl.goal.core.aut.Automaton.addToTransitionMaps(Automaton.java:1193)
+	at org.svvrl.goal.core.aut.Automaton.createTransition(Automaton.java:1264)
+	at org.svvrl.goal.core.aut.fsa.FSA.createTransition(FSA.java:79)
+	at ch.unifr.goal.complement.FribourgConstruction.construction(FribourgConstruction.java:382)
+	at ch.unifr.goal.complement.FribourgConstruction.complement(FribourgConstruction.java:71)
+	at ch.unifr.goal.complement.FribourgConstruction.complement(FribourgConstruction.java:34)
+	at org.svvrl.goal.cmd.ComplementCommand$ComplementTask.run(ComplementCommand.java:157)
+ERROR: Unknown result in complementing /home/ubelix/sm/dw07r324/data/test_set_s15/s15_t1.8_a0.6_099.gff.

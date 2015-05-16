@@ -1,0 +1,32 @@
+Start: 2014-12-24 16:56:38 (1419436598)
+1. 2014-12-24 16:56:38: michel_n1.gff
+2. 2014-12-24 16:56:42: michel_n2.gff
+3. 2014-12-24 16:56:53: michel_n3.gff
+4. 2014-12-24 17:05:48: michel_n4.gff
+Exception in thread "Thread-1" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Arrays.copyOfRange(Arrays.java:3221)
+	at java.lang.String.<init>(String.java:233)
+	at java.lang.StringBuilder.toString(StringBuilder.java:447)
+	at org.svvrl.goal.core.aut.State.getDisplayName(State.java:112)
+	at org.svvrl.goal.core.aut.State.toString(State.java:158)
+	at org.svvrl.goal.core.util.Strings.concat(Strings.java:34)
+	at org.svvrl.goal.core.aut.GraphicComponentSet.toString(GraphicComponentSet.java:232)
+	at org.svvrl.goal.core.comp.rank.RankState.toString(RankState.java:206)
+	at org.svvrl.goal.core.comp.rank.RankState.equals(RankState.java:222)
+	at java.util.HashMap.get(HashMap.java:322)
+	at org.svvrl.goal.core.comp.rank.RankConstruction.getStateFromRankState(RankConstruction.java:710)
+	at org.svvrl.goal.core.comp.rank.RankConstruction.expandRankState(RankConstruction.java:260)
+	at org.svvrl.goal.core.comp.rank.RankConstruction.complement(RankConstruction.java:136)
+	at org.svvrl.goal.core.comp.rank.RankConstruction.complement(RankConstruction.java:1)
+	at org.svvrl.goal.cmd.ComplementExpression$ComplementTask.run(ComplementExpression.java:271)
+Failed to evaluate the expression:
+  complement -m rank /scratch/local/753296.1.highmem.q/data/michel_n4.gff
+ERROR: Unknown result in complementing /scratch/local/753296.1.highmem.q/data/michel_n4.gff.
+
+real	203m39.600s
+user	1158m47.131s
+sys	2m28.553s
+==> This was a memory excess
+End: 2014-12-24 20:29:28 (1419449368)
+Duration (wallclock): 3h 32min 50sec
+                      12770sec

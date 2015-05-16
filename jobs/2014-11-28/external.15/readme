@@ -1,0 +1,10 @@
+piterman, slice, and rank on the size 15 test set.
+
+piterman.eq.ro.15:      Main run of piterman
+piterman.sim.ro.15:     The -sim option has a similar effect as -r. The complements of all the universal automata have size 1. That is, this run is NOT TO BE USED for the performance comparison.
+piterman.15:            Just out of curiosity, how much worse piterman is without options.
+
+slice.p.ro.madj.eg.15:  Main run of slice
+
+rank.tr.ro.15:          Main run of rank. Took extremely long and had to be run as 10 different jobs on 10 partitions of the test set. Very numerous timeouts and memory outs. Probably not include in performance comparison.
+

@@ -1,0 +1,10 @@
+First attempt for serious internal and external experiment for size 20.
+
+There are two limitation variants:
+1) Timeout 600s, memory 1G
+2) Timeout 1200s, memory 2G
+
+Many runs have been aborted due to exceeding the home directory disk quota (because of the core dump files that have previously not been deleted). 
+Runs for piterman and slice are ok.
+
+Runs for fribourg (without options) and for rank do not fit in 72 hours.

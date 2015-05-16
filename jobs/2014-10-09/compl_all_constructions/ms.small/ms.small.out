@@ -1,0 +1,19 @@
+# Starting date:             2014-10-09 18:46:46
+# Cluster job ID:            9117052
+# Cluster node:              hnode35
+# Cluster queue:             mpi.q
+# Complementation algorithm: ms
+# Data:                      small.tar.gz
+# Memory limit (Java heap):  1G
+# Timeout (CPU time):        600s
+states	zstates	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+NA	NA	N	Y	64.145	407.457	405.960	1.497	1.0	0.1	s15_t1.0_a0.1_001.gff
+NA	NA	N	Y	56.515	397.217	395.888	1.329	1.0	0.1	s15_t1.0_a0.1_002.gff
+44	0	N	N	1.580	2.857	2.697	0.160	1.0	0.1	s15_t1.0_a0.1_003.gff
+NA	NA	N	Y	76.909	524.078	522.258	1.820	1.0	0.1	s15_t1.0_a0.1_004.gff
+NA	NA	N	Y	68.575	389.088	387.897	1.191	1.0	0.1	s15_t1.0_a0.1_005.gff
+765	0	N	N	1.945	3.743	3.562	0.181	1.0	0.1	s15_t1.0_a0.1_006.gff
+NA	NA	N	Y	51.408	453.705	452.211	1.494	1.0	0.1	s15_t1.0_a0.1_007.gff
+517	0	N	N	1.869	3.482	3.320	0.162	1.0	0.1	s15_t1.0_a0.1_008.gff
+NA	NA	Y	N	122.524	601.408	599.722	1.686	1.0	0.1	s15_t1.0_a0.1_009.gff
+52820	0	N	N	15.415	29.408	28.660	0.748	1.0	0.1	s15_t1.0_a0.1_010.gff

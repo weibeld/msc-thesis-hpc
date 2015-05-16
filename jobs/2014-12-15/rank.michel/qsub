@@ -1,0 +1,1 @@
+qsub -wd /home/ubelix/sm/dw07r324/jobs/2014-12-15/rank.michel -V -M daniel.weibel@unifr.ch -m ea -l h_cpu=96:00:00,h_vmem=20G -l scratch=1,scratch_size=1G,scratch_files=1M -pe smp 4 -R y -q highmem.q -o stdout -e stderr -N rank.michel /home/ubelix/sm/dw07r324/scripts/complement/complement.sh -a rank -d /home/ubelix/sm/dw07r324/data/michel.tar.gz -t 0 -m 16G -o

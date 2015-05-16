@@ -1,0 +1,90 @@
+JPF Application boot failed.
+Mon Sep 22 23:36:56 CEST 2014
+
+-----------------------------------------------
+Exception details.
+
+Class: java.lang.IllegalArgumentException
+Message: plug-in ch.unifr.goal.complement disabled internally as it wasn't properly initialized
+
+Stack trace:
+
+org.java.plugin.standard.StandardPluginManager.getPluginClassLoader(StandardPluginManager.java:324)
+org.svvrl.goal.core.CorePlugin.loadComplementConstructions(CorePlugin.java:480)
+org.svvrl.goal.core.CorePlugin.initApplication(CorePlugin.java:128)
+org.java.plugin.boot.DefaultApplicationInitializer.initApplication(DefaultApplicationInitializer.java:322)
+org.java.plugin.boot.Boot.initApplication(Boot.java:538)
+org.java.plugin.boot.Boot.boot(Boot.java:343)
+org.java.plugin.boot.Boot.main(Boot.java:243)
+
+-----------------------------------------------
+System properties:
+
+applicationRoot=/home/ubelix/sm/dw07r324/bin/GOAL-20140808
+file.encoding=ANSI_X3.4-1968
+file.encoding.pkg=sun.io
+file.separator=/
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.awt.printerjob=sun.print.PSPrinterJob
+java.class.path=/home/ubelix/sm/dw07r324/bin/GOAL-20140808/lib/jpf-boot.jar
+java.class.version=50.0
+java.endorsed.dirs=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/endorsed
+java.ext.dirs=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+java.home=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre
+java.io.tmpdir=/tmp
+java.library.path=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.runtime.name=OpenJDK Runtime Environment
+java.runtime.version=1.6.0_32-b32
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Sun Microsystems Inc.
+java.specification.version=1.6
+java.vendor=Sun Microsystems Inc.
+java.vendor.url=http://java.sun.com/
+java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+java.version=1.6.0_32
+java.vm.info=mixed mode
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Sun Microsystems Inc.
+java.vm.specification.version=1.0
+java.vm.vendor=Sun Microsystems Inc.
+java.vm.version=23.25-b01
+javax.accessibility.assistive_technologies=org.GNOME.Accessibility.JavaBridge
+jpf.boot.config=/home/ubelix/sm/dw07r324/bin/GOAL-20140808/boot.properties
+jpf.boot.mode=shell
+line.separator=
+
+org.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog
+org.apache.commons.logging.simplelog.log.org.java.plugin=fatal
+org.java.plugin.boot.pluginsRepositories=/home/ubelix/sm/dw07r324/bin/GOAL-20140808/plugins
+org.java.plugin.jpf-version=1.5.1
+os.arch=amd64
+os.name=Linux
+os.version=2.6.32-431.29.2.el6.x86_64
+path.separator=:
+sun.arch.data.model=64
+sun.boot.class.path=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/netx.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/plugin.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/classes
+sun.boot.library.path=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.0.x86_64/jre/lib/amd64
+sun.cpu.endian=little
+sun.cpu.isalist=
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=/home/ubelix/sm/dw07r324/bin/GOAL-20140808/lib/jpf-boot.jar complement -m fribourg -r2ifc -m /home/ubelix/sm/dw07r324/data/test/s15_t1.0_a0.1_010.gff
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=ANSI_X3.4-1968
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=unknown
+user.country=US
+user.dir=/mmfs/automount/gpfs/homefs/sm/dw07r324/jobs/fribourg.r2ifc.m.no_scratch.2
+user.home=/home/ubelix/sm/dw07r324
+user.language=en
+user.name=dw07r324
+user.timezone=Europe/Zurich
+
+-----------------------------------------------
+Runtime info:
+
+Memory TOTAL / FREE / MAX: 1029046272 / 926907880 / 1029046272
+Available processors: 8
+System class loader: sun.misc.Launcher$AppClassLoader@2d63c5bb
+Thread context class loader: sun.misc.Launcher$AppClassLoader@2d63c5bb
+Security manager: null

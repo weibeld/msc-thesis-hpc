@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+        <Symbol>d</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>300</Y>
+            <X>526</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>247</Y>
+            <X>399</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>324</Y>
+            <X>120</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>336</Y>
+            <X>386</X>
+            <Properties/>
+        </State>
+        <State sid="4">
+            <Y>288</Y>
+            <X>498</X>
+            <Properties/>
+        </State>
+        <State sid="5">
+            <Y>299</Y>
+            <X>400</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>2</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>5</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>0</From>
+            <To>5</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>0</From>
+            <To>5</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>0</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>1</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>1</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>1</From>
+            <To>1</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>1</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>1</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>1</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>1</From>
+            <To>2</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="16">
+            <From>1</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="17">
+            <From>1</From>
+            <To>4</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="18">
+            <From>1</From>
+            <To>4</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="19">
+            <From>1</From>
+            <To>4</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="20">
+            <From>1</From>
+            <To>5</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="21">
+            <From>1</From>
+            <To>5</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="22">
+            <From>2</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="23">
+            <From>2</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="24">
+            <From>2</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="25">
+            <From>2</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="26">
+            <From>2</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="27">
+            <From>2</From>
+            <To>3</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="28">
+            <From>2</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="29">
+            <From>2</From>
+            <To>4</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="30">
+            <From>2</From>
+            <To>4</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="31">
+            <From>2</From>
+            <To>4</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="32">
+            <From>2</From>
+            <To>5</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="33">
+            <From>2</From>
+            <To>5</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="34">
+            <From>3</From>
+            <To>0</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="35">
+            <From>3</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="36">
+            <From>3</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="37">
+            <From>3</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="38">
+            <From>3</From>
+            <To>4</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="39">
+            <From>3</From>
+            <To>4</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="40">
+            <From>3</From>
+            <To>4</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="41">
+            <From>4</From>
+            <To>0</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="42">
+            <From>4</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="43">
+            <From>4</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="44">
+            <From>4</From>
+            <To>3</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="45">
+            <From>4</From>
+            <To>4</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="46">
+            <From>5</From>
+            <To>1</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="47">
+            <From>5</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="48">
+            <From>5</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="49">
+            <From>5</From>
+            <To>3</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="50">
+            <From>5</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="51">
+            <From>5</From>
+            <To>5</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="52">
+            <From>5</From>
+            <To>5</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="53">
+            <From>5</From>
+            <To>5</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>3</StateID>
+        <StateID>5</StateID>
+    </Acc>
+    <Properties/>
+</Structure>

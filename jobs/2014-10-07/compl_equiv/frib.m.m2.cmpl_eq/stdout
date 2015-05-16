@@ -1,0 +1,6083 @@
+1.
+Tue Oct  7 21:13:10 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+2.
+Tue Oct  7 21:13:10 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+        <Symbol>d</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>182</Y>
+            <X>150</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>279</Y>
+            <X>383</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>128</Y>
+            <X>242</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>230</Y>
+            <X>111</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>1</From>
+            <To>0</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>3</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>2</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+        <StateID>2</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+3.
+Tue Oct  7 21:13:11 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+4.
+Tue Oct  7 21:13:11 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   7
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+5.
+Tue Oct  7 21:13:11 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   17
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+6.
+Tue Oct  7 21:13:11 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>88</Y>
+            <X>443</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>307</Y>
+            <X>356</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>54</Y>
+            <X>342</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>169</Y>
+            <X>229</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>2</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>2</From>
+            <To>0</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>2</From>
+            <To>3</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>3</From>
+            <To>2</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>3</From>
+            <To>2</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 0 sec.
+
+7.
+Tue Oct  7 21:13:12 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   19
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+8.
+Tue Oct  7 21:13:12 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   12
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+9.
+Tue Oct  7 21:13:12 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   23
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>177</Y>
+            <X>292</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>218</Y>
+            <X>419</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>65</Y>
+            <X>489</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>65</Y>
+            <X>104</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>0</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>0</From>
+            <To>3</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>0</From>
+            <To>3</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>0</From>
+            <To>3</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>1</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>1</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>1</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>1</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>1</From>
+            <To>2</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>2</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>2</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="16">
+            <From>2</From>
+            <To>3</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="17">
+            <From>3</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="18">
+            <From>3</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="19">
+            <From>3</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="20">
+            <From>3</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="21">
+            <From>3</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="22">
+            <From>3</From>
+            <To>2</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+10.
+Tue Oct  7 21:13:13 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   18
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+11.
+Tue Oct  7 21:13:14 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   2
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+12.
+Tue Oct  7 21:13:14 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+13.
+Tue Oct  7 21:13:14 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   11
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+14.
+Tue Oct  7 21:13:14 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>194</Y>
+            <X>371</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>106</Y>
+            <X>164</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>326</Y>
+            <X>211</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>0</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>0</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>0</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>1</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>1</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>0</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>2</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+        <StateID>2</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 0 sec.
+
+15.
+Tue Oct  7 21:13:14 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+16.
+Tue Oct  7 21:13:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   2
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+17.
+Tue Oct  7 21:13:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+18.
+Tue Oct  7 21:13:15 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+19.
+Tue Oct  7 21:13:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+20.
+Tue Oct  7 21:13:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   3
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+21.
+Tue Oct  7 21:13:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+22.
+Tue Oct  7 21:13:16 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   1
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+23.
+Tue Oct  7 21:13:16 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   12
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>202</Y>
+            <X>495</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>233</Y>
+            <X>333</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>155</Y>
+            <X>365</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>142</Y>
+            <X>502</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>3</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>3</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>3</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+        <StateID>2</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 0 sec.
+
+24.
+Tue Oct  7 21:13:16 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   27
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+25.
+Tue Oct  7 21:13:16 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+26.
+Tue Oct  7 21:13:17 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+27.
+Tue Oct  7 21:13:17 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+28.
+Tue Oct  7 21:13:17 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   1
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+29.
+Tue Oct  7 21:13:17 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   10
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+30.
+Tue Oct  7 21:13:17 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   22
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>53</Y>
+            <X>514</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>262</Y>
+            <X>57</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>335</Y>
+            <X>331</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>264</Y>
+            <X>113</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>3</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>3</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>1</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>2</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>2</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>2</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>2</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>3</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="16">
+            <From>3</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="17">
+            <From>3</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="18">
+            <From>3</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="19">
+            <From>3</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="20">
+            <From>3</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="21">
+            <From>3</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+        <StateID>1</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 311 sec.
+
+31.
+Tue Oct  7 21:18:28 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   10
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+        <Symbol>d</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>212</Y>
+            <X>217</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>114</Y>
+            <X>443</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>113</Y>
+            <X>425</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>2</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>2</From>
+            <To>1</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>2</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>2</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+32.
+Tue Oct  7 21:18:29 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   14
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+33.
+Tue Oct  7 21:18:30 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+34.
+Tue Oct  7 21:18:31 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+35.
+Tue Oct  7 21:18:31 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   6
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+36.
+Tue Oct  7 21:18:32 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+37.
+Tue Oct  7 21:18:33 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+38.
+Tue Oct  7 21:18:34 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+39.
+Tue Oct  7 21:18:34 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   1
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+40.
+Tue Oct  7 21:18:35 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   17
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>331</Y>
+            <X>430</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>322</Y>
+            <X>346</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>100</Y>
+            <X>143</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>281</Y>
+            <X>264</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>3</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>2</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>2</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>2</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>2</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>3</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>3</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>3</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>3</From>
+            <To>3</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="16">
+            <From>3</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+41.
+Tue Oct  7 21:18:36 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   10
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>74</Y>
+            <X>379</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>138</Y>
+            <X>485</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>197</Y>
+            <X>204</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>2</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>0</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>2</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 5 sec.
+
+42.
+Tue Oct  7 21:18:42 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   3
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+43.
+Tue Oct  7 21:18:42 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+44.
+Tue Oct  7 21:18:43 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+45.
+Tue Oct  7 21:18:44 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   13
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>118</Y>
+            <X>532</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>241</Y>
+            <X>395</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>226</Y>
+            <X>526</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>2</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>1</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>2</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>2</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>2</From>
+            <To>2</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>2</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 3 sec.
+
+46.
+Tue Oct  7 21:18:47 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+47.
+Tue Oct  7 21:18:48 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   1
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+48.
+Tue Oct  7 21:18:48 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+49.
+Tue Oct  7 21:18:49 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+50.
+Tue Oct  7 21:18:50 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   16
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>117</Y>
+            <X>174</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>331</Y>
+            <X>233</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>238</Y>
+            <X>424</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>266</Y>
+            <X>193</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>1</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>2</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>2</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>3</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>3</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>3</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>3</From>
+            <To>1</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 0 sec.
+
+51.
+Tue Oct  7 21:18:51 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+52.
+Tue Oct  7 21:18:51 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>105</Y>
+            <X>488</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>140</Y>
+            <X>297</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>230</Y>
+            <X>415</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>163</Y>
+            <X>251</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>1</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>3</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>3</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>3</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>2</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>2</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>3</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+        <StateID>2</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+53.
+Tue Oct  7 21:18:53 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>286</Y>
+            <X>429</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>66</Y>
+            <X>256</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>347</Y>
+            <X>412</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>1</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>1</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>2</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>2</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>2</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+54.
+Tue Oct  7 21:18:54 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   9
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+55.
+Tue Oct  7 21:18:55 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+56.
+Tue Oct  7 21:18:56 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>323</Y>
+            <X>528</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>91</Y>
+            <X>128</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>262</Y>
+            <X>449</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>101</Y>
+            <X>536</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>3</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>1</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>2</From>
+            <To>0</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>3</From>
+            <To>0</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+        <StateID>2</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 0 sec.
+
+57.
+Tue Oct  7 21:18:56 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+58.
+Tue Oct  7 21:18:57 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+59.
+Tue Oct  7 21:18:58 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+60.
+Tue Oct  7 21:18:59 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+61.
+Tue Oct  7 21:18:59 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   4
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+62.
+Tue Oct  7 21:19:00 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+63.
+Tue Oct  7 21:19:01 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   10
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+64.
+Tue Oct  7 21:19:02 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+65.
+Tue Oct  7 21:19:02 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+66.
+Tue Oct  7 21:19:03 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   0
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+67.
+Tue Oct  7 21:19:04 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   20
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+        <Symbol>d</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>331</Y>
+            <X>234</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>251</Y>
+            <X>303</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>95</Y>
+            <X>436</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>247</Y>
+            <X>182</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>0</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>0</From>
+            <To>3</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>0</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>2</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>1</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>1</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>1</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>2</From>
+            <To>0</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>2</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>2</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>2</From>
+            <To>2</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="16">
+            <From>2</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="17">
+            <From>3</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="18">
+            <From>3</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="19">
+            <From>3</From>
+            <To>2</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+        <StateID>2</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 2 sec.
+
+68.
+Tue Oct  7 21:19:06 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   17
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>249</Y>
+            <X>448</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>317</Y>
+            <X>112</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>284</Y>
+            <X>439</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>212</Y>
+            <X>245</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>0</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>1</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>1</From>
+            <To>3</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>1</From>
+            <To>3</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>2</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>3</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>3</From>
+            <To>2</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>3</From>
+            <To>3</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="16">
+            <From>3</From>
+            <To>3</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+        <StateID>2</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 3 sec.
+
+69.
+Tue Oct  7 21:19:09 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+70.
+Tue Oct  7 21:19:10 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+71.
+Tue Oct  7 21:19:10 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   2
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+72.
+Tue Oct  7 21:19:11 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+73.
+Tue Oct  7 21:19:12 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+74.
+Tue Oct  7 21:19:13 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   2
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+75.
+Tue Oct  7 21:19:13 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+76.
+Tue Oct  7 21:19:14 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   3
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+77.
+Tue Oct  7 21:19:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   12
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+78.
+Tue Oct  7 21:19:16 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   0
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+79.
+Tue Oct  7 21:19:16 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+80.
+Tue Oct  7 21:19:17 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+81.
+Tue Oct  7 21:19:18 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+82.
+Tue Oct  7 21:19:19 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+83.
+Tue Oct  7 21:19:19 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+84.
+Tue Oct  7 21:19:20 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+85.
+Tue Oct  7 21:19:21 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+86.
+Tue Oct  7 21:19:22 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   11
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+87.
+Tue Oct  7 21:19:22 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+88.
+Tue Oct  7 21:19:23 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   9
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+89.
+Tue Oct  7 21:19:24 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+90.
+Tue Oct  7 21:19:25 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   19
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+91.
+Tue Oct  7 21:19:26 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+92.
+Tue Oct  7 21:19:26 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   10
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+93.
+Tue Oct  7 21:19:27 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   18
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>345</Y>
+            <X>367</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>250</Y>
+            <X>112</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>339</Y>
+            <X>215</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>270</Y>
+            <X>425</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>0</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>0</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>0</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>1</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>1</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>1</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>1</From>
+            <To>3</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>1</From>
+            <To>3</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>1</From>
+            <To>3</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>2</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="16">
+            <From>2</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="17">
+            <From>2</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+        <StateID>2</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+94.
+Tue Oct  7 21:19:28 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+95.
+Tue Oct  7 21:19:29 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   16
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+96.
+Tue Oct  7 21:19:29 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+97.
+Tue Oct  7 21:19:30 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+98.
+Tue Oct  7 21:19:31 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+99.
+Tue Oct  7 21:19:32 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   1
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+100.
+Tue Oct  7 21:19:33 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+101.
+Tue Oct  7 21:19:33 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+102.
+Tue Oct  7 21:19:34 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+103.
+Tue Oct  7 21:19:35 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+104.
+Tue Oct  7 21:19:36 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   24
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+105.
+Tue Oct  7 21:19:36 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+106.
+Tue Oct  7 21:19:37 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>194</Y>
+            <X>408</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>177</Y>
+            <X>188</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>1</From>
+            <To>0</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>1</From>
+            <To>0</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>1</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>1</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+107.
+Tue Oct  7 21:19:38 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+108.
+Tue Oct  7 21:19:39 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+109.
+Tue Oct  7 21:19:40 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   11
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>161</Y>
+            <X>368</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>260</Y>
+            <X>228</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>287</Y>
+            <X>151</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>68</Y>
+            <X>401</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>3</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>1</From>
+            <To>3</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>1</From>
+            <To>3</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>2</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>2</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>2</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>3</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>3</From>
+            <To>0</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>3</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>3</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>3</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 0 sec.
+
+110.
+Tue Oct  7 21:19:40 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   13
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+        <Symbol>d</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>190</Y>
+            <X>398</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>131</Y>
+            <X>54</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>239</Y>
+            <X>50</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>1</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>0</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>0</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>1</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>1</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>1</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>2</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>2</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 322 sec.
+
+111.
+Tue Oct  7 21:25:02 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+112.
+Tue Oct  7 21:25:03 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+113.
+Tue Oct  7 21:25:04 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   9
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+114.
+Tue Oct  7 21:25:05 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+115.
+Tue Oct  7 21:25:06 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+116.
+Tue Oct  7 21:25:06 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+117.
+Tue Oct  7 21:25:07 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   14
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+118.
+Tue Oct  7 21:25:08 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   16
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>106</Y>
+            <X>50</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>262</Y>
+            <X>296</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>72</Y>
+            <X>284</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>162</Y>
+            <X>476</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>1</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>1</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>2</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>2</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>3</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>3</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+119.
+Tue Oct  7 21:25:09 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+120.
+Tue Oct  7 21:25:10 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+121.
+Tue Oct  7 21:25:11 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   1
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+122.
+Tue Oct  7 21:25:12 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   0
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+123.
+Tue Oct  7 21:25:13 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   15
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+124.
+Tue Oct  7 21:25:14 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   10
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>305</Y>
+            <X>166</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>346</Y>
+            <X>241</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>299</Y>
+            <X>152</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>2</From>
+            <To>0</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>2</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>2</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>2</From>
+            <To>1</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>2</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+125.
+Tue Oct  7 21:25:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+126.
+Tue Oct  7 21:25:16 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+127.
+Tue Oct  7 21:25:17 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   12
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+128.
+Tue Oct  7 21:25:18 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+129.
+Tue Oct  7 21:25:19 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+130.
+Tue Oct  7 21:25:20 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   8
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+131.
+Tue Oct  7 21:25:20 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>334</Y>
+            <X>536</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>196</Y>
+            <X>414</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>290</Y>
+            <X>307</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>314</Y>
+            <X>240</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>3</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>1</From>
+            <To>3</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>3</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>2</From>
+            <To>0</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>3</From>
+            <To>0</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+        <StateID>2</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 0 sec.
+
+132.
+Tue Oct  7 21:25:21 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   7
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+133.
+Tue Oct  7 21:25:22 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+134.
+Tue Oct  7 21:25:23 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   0
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+135.
+Tue Oct  7 21:25:24 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+136.
+Tue Oct  7 21:25:25 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   5
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+137.
+Tue Oct  7 21:25:26 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+138.
+Tue Oct  7 21:25:27 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   13
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+        <Symbol>d</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>169</Y>
+            <X>492</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>238</Y>
+            <X>185</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>133</Y>
+            <X>188</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>2</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>1</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>2</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>2</From>
+            <To>2</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>2</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+139.
+Tue Oct  7 21:25:28 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   1
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+140.
+Tue Oct  7 21:25:29 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   1
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+141.
+Tue Oct  7 21:25:30 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+142.
+Tue Oct  7 21:25:31 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+143.
+Tue Oct  7 21:25:32 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   7
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+144.
+Tue Oct  7 21:25:33 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   14
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+145.
+Tue Oct  7 21:25:34 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   2
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+146.
+Tue Oct  7 21:25:35 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+147.
+Tue Oct  7 21:25:36 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   9
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+148.
+Tue Oct  7 21:25:36 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>272</Y>
+            <X>464</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>86</Y>
+            <X>304</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>237</Y>
+            <X>52</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>259</Y>
+            <X>120</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>1</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>2</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>0</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>2</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>2</From>
+            <To>0</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>2</From>
+            <To>1</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>3</From>
+            <To>1</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+        <StateID>2</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 0 sec.
+
+149.
+Tue Oct  7 21:25:37 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+150.
+Tue Oct  7 21:25:38 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+151.
+Tue Oct  7 21:25:39 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   0
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+152.
+Tue Oct  7 21:25:40 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+153.
+Tue Oct  7 21:25:41 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+154.
+Tue Oct  7 21:25:42 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+155.
+Tue Oct  7 21:25:43 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   11
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+156.
+Tue Oct  7 21:25:44 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+157.
+Tue Oct  7 21:25:45 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+158.
+Tue Oct  7 21:25:46 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+159.
+Tue Oct  7 21:25:47 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+        <Symbol>d</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>337</Y>
+            <X>56</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>163</Y>
+            <X>284</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>104</Y>
+            <X>465</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>202</Y>
+            <X>137</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>2</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>3</From>
+            <To>1</To>
+            <Label>d</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>2</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 71 sec.
+
+160.
+Tue Oct  7 21:26:59 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   5
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>249</Y>
+            <X>452</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>62</Y>
+            <X>253</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>56</Y>
+            <X>501</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>272</Y>
+            <X>210</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>2</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>3</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>3</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>1</To>
+            <Label>p</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>2</From>
+            <To>0</To>
+            <Label>~p</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+        <StateID>1</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 0 sec.
+
+161.
+Tue Oct  7 21:27:00 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+162.
+Tue Oct  7 21:27:01 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   21
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Propositional">
+        <Proposition>p</Proposition>
+        <Proposition>q</Proposition>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>54</Y>
+            <X>80</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>324</Y>
+            <X>80</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>146</Y>
+            <X>299</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>336</Y>
+            <X>357</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>1</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>3</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>3</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>3</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>3</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>3</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>2</From>
+            <To>0</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>0</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>2</From>
+            <To>2</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>2</From>
+            <To>2</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>2</From>
+            <To>3</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>2</From>
+            <To>3</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>2</From>
+            <To>3</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="15">
+            <From>2</From>
+            <To>3</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="16">
+            <From>3</From>
+            <To>0</To>
+            <Label>~p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="17">
+            <From>3</From>
+            <To>1</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="18">
+            <From>3</From>
+            <To>1</To>
+            <Label>p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="19">
+            <From>3</From>
+            <To>3</To>
+            <Label>~p q</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="20">
+            <From>3</From>
+            <To>3</To>
+            <Label>p ~q</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+        <StateID>1</StateID>
+        <StateID>2</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 14 sec.
+
+163.
+Tue Oct  7 21:27:15 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   10
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+164.
+Tue Oct  7 21:27:16 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+165.
+Tue Oct  7 21:27:17 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+166.
+Tue Oct  7 21:27:18 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+167.
+Tue Oct  7 21:27:19 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+168.
+Tue Oct  7 21:27:20 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+169.
+Tue Oct  7 21:27:21 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+170.
+Tue Oct  7 21:27:22 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   1
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+171.
+Tue Oct  7 21:27:23 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+172.
+Tue Oct  7 21:27:24 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+173.
+Tue Oct  7 21:27:25 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+174.
+Tue Oct  7 21:27:26 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+175.
+Tue Oct  7 21:27:26 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+176.
+Tue Oct  7 21:27:27 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   13
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+177.
+Tue Oct  7 21:27:28 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+178.
+Tue Oct  7 21:27:29 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   15
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>56</Y>
+            <X>108</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>84</Y>
+            <X>439</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>244</Y>
+            <X>346</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>70</Y>
+            <X>357</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>1</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>1</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>1</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>1</From>
+            <To>3</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>1</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="9">
+            <From>2</From>
+            <To>1</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="10">
+            <From>2</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="11">
+            <From>3</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="12">
+            <From>3</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="13">
+            <From>3</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="14">
+            <From>3</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 33 sec.
+
+179.
+Tue Oct  7 21:28:03 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   2
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+180.
+Tue Oct  7 21:28:04 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+181.
+Tue Oct  7 21:28:05 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+182.
+Tue Oct  7 21:28:06 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   4
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+183.
+Tue Oct  7 21:28:07 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   9
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+184.
+Tue Oct  7 21:28:08 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   17
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+185.
+Tue Oct  7 21:28:09 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   10
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+186.
+Tue Oct  7 21:28:10 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   1
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+187.
+Tue Oct  7 21:28:11 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... false
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+        <Symbol>c</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>138</Y>
+            <X>169</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>333</Y>
+            <X>174</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>133</Y>
+            <X>520</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>174</Y>
+            <X>392</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>1</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>1</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>1</From>
+            <To>2</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>2</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>2</From>
+            <To>0</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>3</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>3</From>
+            <To>3</To>
+            <Label>c</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="8">
+            <From>3</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>1</StateID>
+        <StateID>3</StateID>
+    </Acc>
+    <Properties/>
+</Structure>
+
+
+Elapsed time: 1 sec.
+
+188.
+Tue Oct  7 21:28:12 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+189.
+Tue Oct  7 21:28:13 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+190.
+Tue Oct  7 21:28:14 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+191.
+Tue Oct  7 21:28:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+192.
+Tue Oct  7 21:28:16 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   1
+  Acc states:    0
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+193.
+Tue Oct  7 21:28:17 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+194.
+Tue Oct  7 21:28:18 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   15
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+195.
+Tue Oct  7 21:28:19 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   21
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... 

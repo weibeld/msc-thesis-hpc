@@ -1,0 +1,14 @@
+# Starting date:             2014-12-24 04:24:35
+# Cluster job name:          rank.michel
+# Cluster job ID:            725906
+# Cluster node:              jnode16
+# Cluster queue:             highmem.q
+# Complementation algorithm: rank
+# Data:                      michel.tar.gz
+# Memory limit (Java heap):  32G
+# Timeout (CPU time):        0s
+states	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+148	N	N	1.656	2.942	2.728	0.214			michel_n1.gff
+5165	N	N	9.737	12.813	11.036	1.777			michel_n2.gff
+226266	N	N	528.714	705.475	689.804	15.671			michel_n3.gff
+NA	N	Y	6642.447	43816.839	43708.919	107.920			michel_n4.gff

@@ -1,0 +1,1 @@
+qsub -cwd -V -M daniel.weibel@unifr.ch -m bea -l h_cpu=48:00:00,h_vmem=4G -pe smp 3 -R y -q all.q -o fribourg.r2ifc.m.no_scratch.out -e fribourg.r2ifc.m.no_scratch.err -N fribourg.r2ifc.m.no_scratch complement_no_scratch.sh

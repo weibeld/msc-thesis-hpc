@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Structure label-on="Transition" type="FiniteStateAutomaton">
+    <Name/>
+    <Description/>
+    <Formula/>
+    <Alphabet type="Classical">
+        <Symbol>a</Symbol>
+        <Symbol>b</Symbol>
+    </Alphabet>
+    <StateSet>
+        <State sid="0">
+            <Y>315</Y>
+            <X>108</X>
+            <Properties/>
+        </State>
+        <State sid="1">
+            <Y>112</Y>
+            <X>207</X>
+            <Properties/>
+        </State>
+        <State sid="2">
+            <Y>55</Y>
+            <X>306</X>
+            <Properties/>
+        </State>
+        <State sid="3">
+            <Y>269</Y>
+            <X>100</X>
+            <Properties/>
+        </State>
+    </StateSet>
+    <InitialStateSet>
+        <StateID>0</StateID>
+    </InitialStateSet>
+    <TransitionSet complete="true">
+        <Transition tid="0">
+            <From>0</From>
+            <To>0</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="1">
+            <From>0</From>
+            <To>1</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="2">
+            <From>0</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="3">
+            <From>0</From>
+            <To>3</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="4">
+            <From>0</From>
+            <To>3</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="5">
+            <From>2</From>
+            <To>2</To>
+            <Label>b</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="6">
+            <From>2</From>
+            <To>2</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+        <Transition tid="7">
+            <From>3</From>
+            <To>0</To>
+            <Label>a</Label>
+            <Properties/>
+        </Transition>
+    </TransitionSet>
+    <Acc type="Buchi">
+        <StateID>0</StateID>
+    </Acc>
+    <Properties/>
+</Structure>

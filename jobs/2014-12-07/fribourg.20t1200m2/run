@@ -1,0 +1,17 @@
+cd fribourg.20t1200m2_1_of_5
+submit.sh -c 72:00:00 -q mpi.q -n ea ~/scripts/complement/complement.sh -a "fribourg" -t 1200 -m 2G -o -d ~/data/partitions/20.1_of_5.tar.gz
+
+cd ../fribourg.20t1200m2_2_of_5
+submit.sh -c 72:00:00 -q mpi.q -n ea ~/scripts/complement/complement.sh -a "fribourg" -t 1200 -m 2G -o -d ~/data/partitions/20.2_of_5.tar.gz
+
+cd ../fribourg.20t1200m2_3_of_5
+submit.sh -c 72:00:00 -q mpi.q -n ea ~/scripts/complement/complement.sh -a "fribourg" -t 1200 -m 2G -o -d ~/data/partitions/20.3_of_5.tar.gz
+
+cd ../fribourg.20t1200m2_4_of_5
+submit.sh -c 72:00:00 -q mpi.q -n ea ~/scripts/complement/complement.sh -a "fribourg" -t 1200 -m 2G -o -d ~/data/partitions/20.4_of_5.tar.gz
+
+cd ../fribourg.20t1200m2_5_of_5
+submit.sh -c 72:00:00 -q mpi.q -n ea ~/scripts/complement/complement.sh -a "fribourg" -t 1200 -m 2G -o -d ~/data/partitions/20.5_of_5.tar.gz
+
+cd ..
+

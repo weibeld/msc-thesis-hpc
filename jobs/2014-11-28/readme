@@ -1,0 +1,11 @@
+- Serious universality test for the automata in the size 15 and size 20 test set.
+    - Size 15: successul
+    - Size 20: memory outs (constructions with all options)
+        - piterman: 2G
+        - slice:    4G
+        - fribourg: 2G
+- Second attempt of serious internal test (size 15). Without zstates in complement.sh.
+  Only most essential option configurations
+- First serious attempt of external test (size 15)
+    - Restarted rank -tr -ro on long.q with 360:00:00 CPU time and out and log file in home directory, because it didn't finish within 72:00:00 hours on mpi.q.
+        - Other solution than long.q for jobs that take too long: partition test set and run a separate job for each partition. See 2014-12-07.

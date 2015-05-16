@@ -1,0 +1,18 @@
+# Starting date:             2014-09-23 18:15:02
+# Cluster job ID:            8693929
+# Cluster node:              fnode04
+# Cluster queue:             all.q
+# Complementation algorithm: piterman -eq -macc -sp -ro -r
+# Memory limit (Java heap):  1G
+# Timeout (CPU time):        600s
+states	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+489	N	N	3.944	5.318	5.024	0.294	1.0	0.1	s15_t1.0_a0.1_001.gff
+282	N	N	2.683	4.748	4.516	0.232	1.0	0.1	s15_t1.0_a0.1_002.gff
+24	N	N	1.817	3.230	3.035	0.195	1.0	0.1	s15_t1.0_a0.1_003.gff
+283	N	N	4.726	5.609	5.341	0.268	1.0	0.1	s15_t1.0_a0.1_004.gff
+1058	N	N	4.379	7.783	7.436	0.347	1.0	0.1	s15_t1.0_a0.1_005.gff
+43	N	N	1.999	3.385	3.150	0.235	1.0	0.1	s15_t1.0_a0.1_006.gff
+86	N	N	2.700	3.757	3.531	0.226	1.0	0.1	s15_t1.0_a0.1_007.gff
+62	N	N	2.008	3.609	3.408	0.201	1.0	0.1	s15_t1.0_a0.1_008.gff
+155	N	N	2.719	4.329	4.077	0.252	1.0	0.1	s15_t1.0_a0.1_009.gff
+105	N	N	2.176	3.992	3.760	0.232	1.0	0.1	s15_t1.0_a0.1_010.gff

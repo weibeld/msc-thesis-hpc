@@ -1,0 +1,23 @@
+2014-10-09 18:46:46: s15_t1.0_a0.1_001.gff
+2014-10-09 19:35:25: s15_t1.0_a0.1_002.gff
+2014-10-09 19:35:35: s15_t1.0_a0.1_003.gff
+2014-10-09 19:35:37: s15_t1.0_a0.1_004.gff
+2014-10-09 19:36:09: s15_t1.0_a0.1_005.gff
+Exception in thread "Thread-1" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.StringBuilder.toString(StringBuilder.java:447)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.getState(NSW2NBW.java:57)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.convert(NSW2NBW.java:204)
+	at org.svvrl.goal.core.comp.safra.SafraConstruction.complement(SafraConstruction.java:163)
+	at org.svvrl.goal.core.comp.safra.SafraConstruction.complement(SafraConstruction.java:1)
+	at org.svvrl.goal.cmd.ComplementCommand$ComplementTask.run(ComplementCommand.java:157)
+ERROR: Unknown result in complementing /scratch/local/9117051.1.mpi.q/data/s15_t1.0_a0.1_005.gff.
+
+real	0m44.987s
+user	6m39.571s
+sys	0m1.519s
+==> This was a memory excess
+2014-10-09 19:36:54: s15_t1.0_a0.1_006.gff
+2014-10-09 19:36:56: s15_t1.0_a0.1_007.gff
+2014-10-09 19:37:00: s15_t1.0_a0.1_008.gff
+2014-10-09 19:37:03: s15_t1.0_a0.1_009.gff
+2014-10-09 19:37:09: s15_t1.0_a0.1_010.gff

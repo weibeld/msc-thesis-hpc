@@ -1,0 +1,70 @@
+2014-10-09 18:46:47: s15_t1.0_a0.1_001.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:   891 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	10m2.904s
+user	10m0.899s
+sys	0m0.747s
+==> This was a timeout
+2014-10-09 18:56:50: s15_t1.0_a0.1_002.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:  3069 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	10m1.166s
+user	10m0.632s
+sys	0m0.926s
+==> This was a timeout
+2014-10-09 19:06:51: s15_t1.0_a0.1_003.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:  3336 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	10m8.087s
+user	10m0.603s
+sys	0m0.737s
+==> This was a timeout
+2014-10-09 19:16:59: s15_t1.0_a0.1_004.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:  3680 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	10m2.916s
+user	10m0.635s
+sys	0m0.823s
+==> This was a timeout
+2014-10-09 19:27:02: s15_t1.0_a0.1_005.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:  3945 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	10m2.539s
+user	10m0.736s
+sys	0m0.771s
+==> This was a timeout
+2014-10-09 19:37:05: s15_t1.0_a0.1_006.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:  5021 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	10m1.996s
+user	10m1.184s
+sys	0m0.738s
+==> This was a timeout
+2014-10-09 19:47:07: s15_t1.0_a0.1_007.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:  5277 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	7m37.693s
+user	10m0.635s
+sys	0m1.172s
+==> This was a timeout
+2014-10-09 19:54:44: s15_t1.0_a0.1_008.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:  5451 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	9m57.720s
+user	10m0.873s
+sys	0m0.999s
+==> This was a timeout
+2014-10-09 20:04:42: s15_t1.0_a0.1_009.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:  5719 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	10m4.185s
+user	10m1.239s
+sys	0m0.587s
+==> This was a timeout
+2014-10-09 20:14:46: s15_t1.0_a0.1_010.gff
+/scratch/local/9117058.1.mpi.q/GOAL/goal: line 19:  5978 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	10m2.783s
+user	10m1.010s
+sys	0m0.715s
+==> This was a timeout

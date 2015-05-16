@@ -1,0 +1,36 @@
+New runs after restarting working on the thesis, improving most scripts, and determining which data is actually needed for the thesis
+
+
+Test data
+---------
+  - Size 15 GOAL test set automata (the size 20 automata are note used anymore)
+  - Michel automata N1 (3 states) to N4 (6 states)
+
+
+Complementation
+---------------
+All the GOAL and Michel automata are complemented with the following constructions and options:
+  - Internal
+      1. fribourg
+      2. fribourg+r2c
+      3. fribourg+r2c+c
+      4. fribourg+m1
+      5. fribourg+m1+m2
+      6. fribourg+m1+r2c
+      7. fribourg+m1+r2c+macc+r 
+  - External
+
+
+Completeness
+------------
+All the GOAL automata are tested for completeness
+
+
+Universality
+------------
+All the GOAL automata are tested for universtality
+
+
+Correctness
+-----------
+For showing the correctness of the implementation, we take the tests from jobs/2014-11-25. Another set of tests could be done in the future.

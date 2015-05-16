@@ -1,0 +1,12 @@
+Investigation: how far the runs that take too long get in 72 hours?
+
+Execution of some of the runs that take too long on mpi.q with log and out file in home directory.
+
+The jobs will not finish, but it will be possible to get an idea of how long they might take in total.
+
+rank -tr -ro (size 15)
+rank (size 15)
+fribourg (size 20, timeout 600s, memory 1G)
+fribourg (size 20, timeout 1200s, memory 2G)
+
+Result (07.12.2014): all jobs could complement more or less one quarter of the automata (between 2500 and 3000). I will handle this by dividing the test sets in 5 partitions and assign one partition per job. Every job should be able to finish its partition in 72 hours on mpi.q (see 2014-12-07).

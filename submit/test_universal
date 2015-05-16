@@ -1,0 +1,127 @@
+#!/bin/bash
+#
+# Sun Grid Engine job script
+#
+# Test all the automata in 'data' for universality. Write results to a CSV file.
+#
+# Note on required resources: with 'piterman -eq -ro' as the complementation
+# construction and 2 GB Java heap, the size 15 GOAL test set can be success-
+# fully completed (around 12 hours CPU time on mpi.q). The memory usage depends
+# strongly on the used complementation construction, but 'piterman -eq -ro'
+# seems to be a good choice.
+#
+# Dependencies:
+#   - Variable "goal" containing path to root directory of GOAL
+#   - Plugin ch.unifr.goal.util installed in GOAL
+#   - Input filenames like 's15_t1.0_a0.1_001.gff' (for detecting dt and da)
+#
+# Daniel Weibel <daniel.weibel@unifr.ch> Nov. 2014 - May 2015
+#------------------------------------------------------------------------------#
+
+# Java heap size
+memory=2G
+export JVMARGS="-Xmx$memory -Xms$memory"
+
+# The complementation construction used for the 'universal' GOAL command
+algo="piterman -eq -ro"
+
+usage() {
+cat <<EOF
+USAGE
+ ${0##*/} DATA
+
+DESCRIPTION
+ Test all the automata in DATA for universality. Write results to CSV file.
+
+DATA
+ Absolute path to .tar.gz archive with input automata
+
+NOTE
+ The Java heap size is fixed to $memory. The complementation construction for
+ the 'universal' command is '$algo'. There is no timeout for 
+ individual complementation tasks.
+EOF
+}
+[[ "$1" = --help ]] && usage && exit
+
+data="$1"
+
+# Print error message to stderr and exit
+abort() {
+  echo -e "${0##*/}: $1" >&2
+  exit 1
+}
+
+# Nice date
+d() { date "+%F %H:%M:%S"; }
+
+# Test for absolute path and file existence
+check_file() {
+  path=$1
+  [[ ! -f "$path"  ]] && abort "\"$path\" is not a valid file"
+  [[ "$path" != /* ]] && abort "must specify absolute path: $path"
+}
+
+check_file "$data"
+
+# Copy input data to local scratch and extract automata to $TMP/input
+cp "$data" "$TMP"/tmp.tar.gz
+mkdir "$TMP"/input
+tar xzf "$TMP"/tmp.tar.gz -C "$TMP"/input --strip-components 1
+input="$TMP"/input
+
+# Copy GOAL to local scratch
+mkdir "$TMP"/goal
+cp -r "$goal"/* "$TMP"/goal
+
+# Our "command" to execute GOAL. Note: 'gc' is for command line, 'goal' for GUI.
+goal() { "$TMP"/goal/gc "$@"; }
+
+# Result CSV file
+csv=$JOB_NAME.csv
+touch RUNNING 
+
+# CSV comments
+cat <<EOF >"$csv"
+# Starting date:             $(d)
+# Cluster job name:          $JOB_NAME
+# Cluster job ID:            $JOB_ID
+# Cluster node:              $HOSTNAME
+# Cluster queue:             $QUEUE
+# GOAL command:              universal -m $algo
+# Input data:                $(basename $data)
+# Memory limit (Java heap):  $memory
+# Timeout (CPU time):        No timeout
+EOF
+
+# CSV header
+echo -e "id,universal,dt,da,file" >>"$csv"
+
+# Files to capture stdout and stderr of GOAL "universal" command
+o=$TMP/stdout
+e=$TMP/stderr
+
+i=1
+# Loop through all the input automata
+for file in "$input"/*.gff; do
+
+  # Execute 'universal' command
+  goal universal -m $algo "$file" 1>"$o" 2>"$e"
+
+  # Check for error, abort job if there is an error (e.g. memory out)
+  [[ -s "$e" ]] && { mv RUNNING ERROR; cat "$e" >>"$csv"; exit 1; }
+
+  # Check result of 'universal' command (writes 'true' or 'false' to stdout)
+  if grep -q true "$o"; then universal=Y; else universal=N; fi
+
+  # Extract transtion and acceptance densitiy from file name. Assumes filename
+  # of the form s15_t1.0_a0.1_001.gff
+  dt=$(echo ${file##*/} | egrep -o "t[0-9].[0-9]" | sed 's/^t//')
+  da=$(echo ${file##*/} | egrep -o "a[0-9].[0-9]" | sed 's/^a//')
+
+  # Write CSV line
+  echo "$i,$universal,$dt,$da,${file##*/}" >>"$csv"
+  i=$(($i + 1))
+done
+
+mv RUNNING FINISHED

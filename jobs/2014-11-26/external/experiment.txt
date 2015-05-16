@@ -1,0 +1,3 @@
+piterman -eq -sim -ro
+rank -tr -ro
+slice -p -ro -madj -eg

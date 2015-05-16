@@ -1,0 +1,14 @@
+# Starting date:             2015-05-15 20:13:19
+# Cluster job name:          fribourg.r2c.michel
+# Cluster job ID:            7355331
+# Cluster node:              hnode25
+# Cluster queue:             mpi.q
+# Algorithm:                 fribourg -r2c
+# Input data:                michel.tar.gz
+# Memory limit (Java heap):  2G
+# Timeout (CPU time):        172800s
+states,t_out,m_out,real_t,cpu_t,dt,da,file
+33,N,N,4.592,2.256,,,michel_n1.gff
+467,N,N,4.007,3.366,,,michel_n2.gff
+8271,N,N,20.006,24.840,,,michel_n3.gff
+NA,N,Y,28038.316,28537.455,,,michel_n4.gff

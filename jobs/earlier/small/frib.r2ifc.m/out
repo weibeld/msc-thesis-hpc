@@ -1,0 +1,18 @@
+# Starting date:             2014-09-23 18:13:36
+# Cluster job ID:            8693908
+# Cluster node:              fnode04
+# Cluster queue:             all.q
+# Complementation algorithm: fribourg -r2ifc -m
+# Memory limit (Java heap):  1G
+# Timeout (CPU time):        600s
+states	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+838	N	N	4.553	6.000	5.760	0.240	1.0	0.1	s15_t1.0_a0.1_001.gff
+469	N	N	2.333	4.986	4.758	0.228	1.0	0.1	s15_t1.0_a0.1_002.gff
+32	N	N	1.739	3.085	2.886	0.199	1.0	0.1	s15_t1.0_a0.1_003.gff
+1072	N	N	3.436	6.406	6.141	0.265	1.0	0.1	s15_t1.0_a0.1_004.gff
+1887	N	N	4.006	8.641	8.297	0.344	1.0	0.1	s15_t1.0_a0.1_005.gff
+74	N	N	1.741	3.261	3.050	0.211	1.0	0.1	s15_t1.0_a0.1_006.gff
+504	N	N	2.496	5.042	4.795	0.247	1.0	0.1	s15_t1.0_a0.1_007.gff
+100	N	N	2.000	3.274	3.059	0.215	1.0	0.1	s15_t1.0_a0.1_008.gff
+353	N	N	2.364	4.644	4.425	0.219	1.0	0.1	s15_t1.0_a0.1_009.gff
+225	N	N	1.981	4.051	3.857	0.194	1.0	0.1	s15_t1.0_a0.1_010.gff

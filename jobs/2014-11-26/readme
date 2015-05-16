@@ -1,0 +1,1 @@
+First attempt for a serious internal test. The complement.sh script includes the zstates, that is, it reduces the complement automaton and calculates how many states of the complement are unreachable or dead states. I removed this feature in a new version of complement.sh to make the jobs faster. The jobs last between 30 and 60 hours CPU time.

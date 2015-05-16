@@ -1,0 +1,19 @@
+# Starting date:             2014-10-09 18:46:46
+# Cluster job ID:            9117051
+# Cluster node:              hnode35
+# Cluster queue:             mpi.q
+# Complementation algorithm: modifiedsafra
+# Data:                      small.tar.gz
+# Memory limit (Java heap):  1G
+# Timeout (CPU time):        600s
+states	zstates	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+68313	68313	N	N	19.279	53.022	52.127	0.895	1.0	0.1	s15_t1.0_a0.1_001.gff
+4194	0	N	N	3.057	6.449	6.232	0.217	1.0	0.1	s15_t1.0_a0.1_002.gff
+1	0	N	N	1.205	2.330	2.195	0.135	1.0	0.1	s15_t1.0_a0.1_003.gff
+11665	0	N	N	4.340	9.762	9.389	0.373	1.0	0.1	s15_t1.0_a0.1_004.gff
+NA	NA	N	Y	44.987	401.090	399.571	1.519	1.0	0.1	s15_t1.0_a0.1_005.gff
+99	0	N	N	1.416	2.667	2.524	0.143	1.0	0.1	s15_t1.0_a0.1_006.gff
+515	0	N	N	1.790	3.421	3.246	0.175	1.0	0.1	s15_t1.0_a0.1_007.gff
+106	0	N	N	1.416	2.692	2.545	0.147	1.0	0.1	s15_t1.0_a0.1_008.gff
+1644	0	N	N	2.404	4.875	4.657	0.218	1.0	0.1	s15_t1.0_a0.1_009.gff
+440	0	N	N	1.729	3.286	3.142	0.144	1.0	0.1	s15_t1.0_a0.1_010.gff

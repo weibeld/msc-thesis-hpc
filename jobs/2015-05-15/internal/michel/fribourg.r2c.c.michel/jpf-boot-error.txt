@@ -1,0 +1,111 @@
+JPF Application boot failed.
+Sat May 16 03:52:05 CEST 2015
+
+-----------------------------------------------
+Exception details.
+
+Class: java.lang.OutOfMemoryError
+Message: Java heap space
+
+Stack trace:
+
+java.util.Arrays.copyOf(Arrays.java:2798)
+java.io.ByteArrayOutputStream.write(ByteArrayOutputStream.java:111)
+com.sun.org.apache.xml.internal.serializer.WriterToUTF8Buffered.flushBuffer(WriterToUTF8Buffered.java:450)
+com.sun.org.apache.xml.internal.serializer.WriterToUTF8Buffered.write(WriterToUTF8Buffered.java:331)
+com.sun.org.apache.xml.internal.serializer.ToStream.startElement(ToStream.java:1801)
+com.sun.org.apache.xml.internal.serializer.ToUnknownStream.startElement(ToUnknownStream.java:548)
+com.sun.org.apache.xml.internal.serializer.ToUnknownStream.startElement(ToUnknownStream.java:476)
+com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(DOM2TO.java:153)
+com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(DOM2TO.java:230)
+com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(DOM2TO.java:230)
+com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(DOM2TO.java:230)
+com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(DOM2TO.java:136)
+com.sun.org.apache.xalan.internal.xsltc.trax.DOM2TO.parse(DOM2TO.java:98)
+com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transformIdentity(TransformerImpl.java:673)
+com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:719)
+com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl.transform(TransformerImpl.java:325)
+org.svvrl.goal.core.io.XMLCodec.encode(XMLCodec.java:134)
+org.svvrl.goal.core.io.FileHandler.save(FileHandler.java:347)
+org.svvrl.goal.core.io.FileHandler.save(FileHandler.java:323)
+org.svvrl.goal.cmd.CmdUtil.encodeEditableAsString(CmdUtil.java:72)
+org.svvrl.goal.cmd.CmdUtil.echo(CmdUtil.java:362)
+org.svvrl.goal.cmd.CmdUtil.echo(CmdUtil.java:342)
+org.svvrl.goal.cmd.SetStmt.eval(SetStmt.java:69)
+org.svvrl.goal.cmd.CmdHandler.start(CmdHandler.java:42)
+org.svvrl.goal.core.CorePlugin.startApplication(CorePlugin.java:181)
+org.java.plugin.boot.Boot.boot(Boot.java:346)
+org.java.plugin.boot.Boot.main(Boot.java:243)
+
+-----------------------------------------------
+System properties:
+
+applicationRoot=/scratch/local/7355330.1.mpi.q/goal
+file.encoding=ANSI_X3.4-1968
+file.encoding.pkg=sun.io
+file.separator=/
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.awt.headless=true
+java.awt.printerjob=sun.print.PSPrinterJob
+java.class.path=/scratch/local/7355330.1.mpi.q/goal/lib/jpf-boot.jar
+java.class.version=50.0
+java.endorsed.dirs=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/endorsed
+java.ext.dirs=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/ext:/usr/java/packages/lib/ext
+java.home=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre
+java.io.tmpdir=/tmp
+java.library.path=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/amd64/server:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/amd64:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/../lib/amd64:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.runtime.name=OpenJDK Runtime Environment
+java.runtime.version=1.6.0_34-b34
+java.specification.name=Java Platform API Specification
+java.specification.vendor=Sun Microsystems Inc.
+java.specification.version=1.6
+java.vendor=Sun Microsystems Inc.
+java.vendor.url=http://java.sun.com/
+java.vendor.url.bug=http://java.sun.com/cgi-bin/bugreport.cgi
+java.version=1.6.0_34
+java.vm.info=mixed mode
+java.vm.name=OpenJDK 64-Bit Server VM
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.specification.vendor=Sun Microsystems Inc.
+java.vm.specification.version=1.0
+java.vm.vendor=Sun Microsystems Inc.
+java.vm.version=23.25-b01
+javax.accessibility.assistive_technologies=org.GNOME.Accessibility.JavaBridge
+jpf.boot.config=/scratch/local/7355330.1.mpi.q/goal/boot_cmd.properties
+jpf.boot.mode=shell
+line.separator=
+
+org.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog
+org.apache.commons.logging.simplelog.log.org.java.plugin=fatal
+org.java.plugin.boot.pluginsRepositories=/scratch/local/7355330.1.mpi.q/goal/plugins
+org.java.plugin.jpf-version=1.5.1
+os.arch=amd64
+os.name=Linux
+os.version=2.6.32-504.8.1.el6.x86_64
+path.separator=:
+sun.arch.data.model=64
+sun.boot.class.path=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/resources.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/rt.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/jsse.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/jce.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/charsets.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/jfr.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/netx.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/plugin.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/rhino.jar:/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/classes
+sun.boot.library.path=/usr/lib/jvm/java-1.6.0-openjdk-1.6.0.34.x86_64/jre/lib/amd64
+sun.cpu.endian=little
+sun.cpu.isalist=
+sun.io.unicode.encoding=UnicodeLittle
+sun.java.command=/scratch/local/7355330.1.mpi.q/goal/lib/jpf-boot.jar complement -m fribourg -r2c -c /scratch/local/7355330.1.mpi.q/input/michel_n4.gff
+sun.java.launcher=SUN_STANDARD
+sun.jnu.encoding=ANSI_X3.4-1968
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+sun.os.patch.level=unknown
+user.country=US
+user.dir=/mmfs/automount/gpfs/homefs/sm/dw07r324/jobs/2015-05-15/internal/michel/fribourg.r2c.c.michel
+user.home=/home/ubelix/sm/dw07r324
+user.language=en
+user.name=dw07r324
+user.timezone=Europe/Zurich
+
+-----------------------------------------------
+Runtime info:
+
+Memory TOTAL / FREE / MAX: 2143420416 / 25953096 / 2143420416
+Available processors: 16
+System class loader: sun.misc.Launcher$AppClassLoader@5bdf59bd
+Thread context class loader: sun.misc.Launcher$AppClassLoader@5bdf59bd
+Security manager: null

@@ -1,0 +1,18 @@
+-bash: module: line 1: syntax error: unexpected end of file
+-bash: error importing function definition for `BASH_FUNC_module'
+-bash: module: line 1: syntax error: unexpected end of file
+-bash: error importing function definition for `BASH_FUNC_module'
+Application start failed.
+java.lang.OutOfMemoryError: Java heap space
+	at java.util.Arrays.copyOf(Arrays.java:2894)
+	at java.lang.AbstractStringBuilder.expandCapacity(AbstractStringBuilder.java:117)
+	at java.lang.AbstractStringBuilder.append(AbstractStringBuilder.java:407)
+	at java.lang.StringBuilder.append(StringBuilder.java:136)
+	at org.svvrl.goal.cmd.CmdUtil.encodeEditableAsString(CmdUtil.java:73)
+	at org.svvrl.goal.cmd.CmdUtil.echo(CmdUtil.java:362)
+	at org.svvrl.goal.cmd.CmdUtil.echo(CmdUtil.java:342)
+	at org.svvrl.goal.cmd.SetStmt.eval(SetStmt.java:61)
+	at org.svvrl.goal.cmd.CmdHandler.start(CmdHandler.java:42)
+	at org.svvrl.goal.core.CorePlugin.startApplication(CorePlugin.java:174)
+	at org.java.plugin.boot.Boot.boot(Boot.java:346)
+	at org.java.plugin.boot.Boot.main(Boot.java:243)

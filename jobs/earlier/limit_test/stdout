@@ -1,0 +1,7 @@
+timeout: 600s
+memout: 2M
+
+Executing goal complement -m fribourg /home/ubelix/sm/dw07r324/data/test_set_s15/s15_t1.8_a0.6_099.gff >tmp
+
+$?: 0
+cat tmp:

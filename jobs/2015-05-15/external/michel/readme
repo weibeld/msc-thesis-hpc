@@ -1,0 +1,10 @@
+Test if Michel automata can be done on mpi.q with 4 GB memory and 72:00:00 hours CPU time limit, and with 2 GB Java heap (no timeout per automaton). If there are memory outs, then Michel have to be done on highmem.q with 16 GB memory, and something like 14 GB Java heap.
+
+There are still 3 versions of the Fribourg construction running on Michel, the ones without the M1 optimisation. So, it depends also on them,  if they can finish th Michel automata without a memory out.
+
+--> Result: there are memory outs with mpi.q, 4 GB, thus, definitely all Michel must be done with
+     - highmem.q
+     - 16 GB
+     - 72:00:00
+     - 14 GB Java heap
+     - No timeout

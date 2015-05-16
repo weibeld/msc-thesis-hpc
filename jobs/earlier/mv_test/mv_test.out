@@ -1,0 +1,17 @@
+ls -l $TMP: 
+total 4
+drwxr-xr-x 2 dw07r324 sm 4096 Sep 22 15:40 test
+
+data: /scratch/local/8651728.1.all.q/test
+
+ls /scratch/local/8651728.1.all.q/test:
+s15_t1.0_a0.1_001.gff
+s15_t1.0_a0.1_002.gff
+s15_t1.0_a0.1_003.gff
+s15_t1.0_a0.1_004.gff
+s15_t1.0_a0.1_005.gff
+s15_t1.0_a0.1_006.gff
+s15_t1.0_a0.1_007.gff
+s15_t1.0_a0.1_008.gff
+s15_t1.0_a0.1_009.gff
+s15_t1.0_a0.1_010.gff

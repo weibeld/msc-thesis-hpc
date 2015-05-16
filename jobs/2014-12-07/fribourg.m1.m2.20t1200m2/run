@@ -1,0 +1,1 @@
+submit.sh -c 72:00:00 -q mpi.q -n ea -m 5G ~/scripts/complement/complement.sh -a "fribourg -m1 -m2" -t 1200 -m 2G -d ~/data/20.tar.gz -o

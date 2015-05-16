@@ -1,0 +1,104 @@
+2014-10-09 18:46:46: s15_t1.0_a0.1_001.gff
+Exception in thread "Thread-1" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.HashMap.<init>(HashMap.java:226)
+	at org.svvrl.goal.core.AbstractEditable.<init>(AbstractEditable.java:37)
+	at org.svvrl.goal.core.aut.AutomatonComponent.<init>(AutomatonComponent.java:30)
+	at org.svvrl.goal.core.aut.GraphicComponent.<init>(GraphicComponent.java:72)
+	at org.svvrl.goal.core.aut.State.<init>(State.java:39)
+	at org.svvrl.goal.core.aut.fsa.FSAState.<init>(FSAState.java:25)
+	at org.svvrl.goal.core.aut.fsa.FSA.newState(FSA.java:56)
+	at org.svvrl.goal.core.aut.fsa.FSA.newState(FSA.java:1)
+	at org.svvrl.goal.core.aut.Automaton.createState(Automaton.java:428)
+	at org.svvrl.goal.core.aut.fsa.FSA.createState(FSA.java:66)
+	at org.svvrl.goal.core.aut.fsa.FSA.createState(FSA.java:1)
+	at org.svvrl.goal.core.aut.Automaton.createState(Automaton.java:415)
+	at org.svvrl.goal.core.aut.fsa.FSA.createState(FSA.java:61)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.getState(NSW2NBW.java:61)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.convert(NSW2NBW.java:205)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:91)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:1)
+	at org.svvrl.goal.cmd.ComplementCommand$ComplementTask.run(ComplementCommand.java:157)
+ERROR: Unknown result in complementing /scratch/local/9117052.1.mpi.q/data/s15_t1.0_a0.1_001.gff.
+
+real	1m4.145s
+user	6m45.960s
+sys	0m1.497s
+==> This was a memory excess
+2014-10-09 18:47:50: s15_t1.0_a0.1_002.gff
+Exception in thread "Thread-1" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.Integer.toUnsignedString(Integer.java:257)
+	at java.lang.Integer.toBinaryString(Integer.java:250)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.nextState(NSW2NBW.java:110)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.convert(NSW2NBW.java:200)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:91)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:1)
+	at org.svvrl.goal.cmd.ComplementCommand$ComplementTask.run(ComplementCommand.java:157)
+ERROR: Unknown result in complementing /scratch/local/9117052.1.mpi.q/data/s15_t1.0_a0.1_002.gff.
+
+real	0m56.515s
+user	6m35.888s
+sys	0m1.329s
+==> This was a memory excess
+2014-10-09 18:48:47: s15_t1.0_a0.1_003.gff
+2014-10-09 18:48:50: s15_t1.0_a0.1_004.gff
+Exception in thread "Thread-1" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.Arrays.copyOfRange(Arrays.java:3221)
+	at java.lang.String.<init>(String.java:233)
+	at java.lang.StringBuilder.toString(StringBuilder.java:447)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.getState(NSW2NBW.java:65)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.convert(NSW2NBW.java:205)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:91)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:1)
+	at org.svvrl.goal.cmd.ComplementCommand$ComplementTask.run(ComplementCommand.java:157)
+ERROR: Unknown result in complementing /scratch/local/9117052.1.mpi.q/data/s15_t1.0_a0.1_004.gff.
+
+real	1m16.909s
+user	8m42.258s
+sys	0m1.820s
+==> This was a memory excess
+2014-10-09 18:50:07: s15_t1.0_a0.1_005.gff
+Exception in thread "Thread-1" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.util.ArrayList.iterator(ArrayList.java:737)
+	at org.svvrl.goal.core.AbstractEditable.fireEditableEvent(AbstractEditable.java:138)
+	at org.svvrl.goal.core.aut.Automaton.dispatchAutomatonEvent(Automaton.java:210)
+	at org.svvrl.goal.core.aut.Automaton.createState(Automaton.java:441)
+	at org.svvrl.goal.core.aut.fsa.FSA.createState(FSA.java:66)
+	at org.svvrl.goal.core.aut.fsa.FSA.createState(FSA.java:1)
+	at org.svvrl.goal.core.aut.Automaton.createState(Automaton.java:415)
+	at org.svvrl.goal.core.aut.fsa.FSA.createState(FSA.java:61)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.getState(NSW2NBW.java:61)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.convert(NSW2NBW.java:205)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:91)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:1)
+	at org.svvrl.goal.cmd.ComplementCommand$ComplementTask.run(ComplementCommand.java:157)
+ERROR: Unknown result in complementing /scratch/local/9117052.1.mpi.q/data/s15_t1.0_a0.1_005.gff.
+
+real	1m8.575s
+user	6m27.897s
+sys	0m1.191s
+==> This was a memory excess
+2014-10-09 18:51:16: s15_t1.0_a0.1_006.gff
+2014-10-09 18:51:20: s15_t1.0_a0.1_007.gff
+Exception in thread "Thread-1" java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at java.lang.Integer.toUnsignedString(Integer.java:266)
+	at java.lang.Integer.toBinaryString(Integer.java:250)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.nextState(NSW2NBW.java:110)
+	at org.svvrl.goal.core.aut.fsa.NSW2NBW.convert(NSW2NBW.java:200)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:91)
+	at org.svvrl.goal.core.comp.ms.MullerSchuppConstruction.complement(MullerSchuppConstruction.java:1)
+	at org.svvrl.goal.cmd.ComplementCommand$ComplementTask.run(ComplementCommand.java:157)
+ERROR: Unknown result in complementing /scratch/local/9117052.1.mpi.q/data/s15_t1.0_a0.1_007.gff.
+
+real	0m51.408s
+user	7m32.211s
+sys	0m1.494s
+==> This was a memory excess
+2014-10-09 18:52:12: s15_t1.0_a0.1_008.gff
+2014-10-09 18:52:16: s15_t1.0_a0.1_009.gff
+/scratch/local/9117052.1.mpi.q/GOAL/goal: line 19:  3291 CPU time limit exceeded (core dumped) java ${JVMARGS} -DapplicationRoot="${DIR}" -Dorg.java.plugin.boot.pluginsRepositories="${DIR}/plugins" -Djpf.boot.config="${DIR}/boot.properties" -Dorg.apache.commons.logging.Log=org.apache.commons.logging.impl.SimpleLog -Dorg.apache.commons.logging.simplelog.log.org.java.plugin=fatal $DOCK -jar "${DIR}/lib/jpf-boot.jar" "$@"
+
+real	2m2.524s
+user	9m59.722s
+sys	0m1.686s
+==> This was a timeout
+2014-10-09 18:54:18: s15_t1.0_a0.1_010.gff

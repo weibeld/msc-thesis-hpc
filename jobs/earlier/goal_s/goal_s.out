@@ -1,0 +1,3539 @@
+1.
+Fri Sep 12 22:55:57 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+2.
+Fri Sep 12 22:55:58 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+3.
+Fri Sep 12 22:55:58 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   29
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+4.
+Fri Sep 12 22:55:59 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+5.
+Fri Sep 12 22:55:59 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+6.
+Fri Sep 12 22:55:59 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+7.
+Fri Sep 12 22:56:00 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+8.
+Fri Sep 12 22:56:01 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+9.
+Fri Sep 12 22:56:01 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+10.
+Fri Sep 12 22:56:01 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+11.
+Fri Sep 12 22:56:01 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   12
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+12.
+Fri Sep 12 22:56:02 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   7
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+13.
+Fri Sep 12 22:56:02 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+14.
+Fri Sep 12 22:56:02 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+15.
+Fri Sep 12 22:56:02 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+16.
+Fri Sep 12 22:56:02 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+17.
+Fri Sep 12 22:56:02 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+18.
+Fri Sep 12 22:56:03 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+19.
+Fri Sep 12 22:56:03 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+20.
+Fri Sep 12 22:56:03 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   20
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+21.
+Fri Sep 12 22:56:03 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+22.
+Fri Sep 12 22:56:03 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+23.
+Fri Sep 12 22:56:04 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+24.
+Fri Sep 12 22:56:04 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   17
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 7 sec.
+
+25.
+Fri Sep 12 22:56:11 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   17
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 58 sec.
+
+26.
+Fri Sep 12 22:57:09 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+27.
+Fri Sep 12 22:57:10 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   12
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+28.
+Fri Sep 12 22:57:11 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+29.
+Fri Sep 12 22:57:11 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+30.
+Fri Sep 12 22:57:12 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   12
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+31.
+Fri Sep 12 22:57:13 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+32.
+Fri Sep 12 22:57:13 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   13
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+33.
+Fri Sep 12 22:57:14 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+34.
+Fri Sep 12 22:57:14 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   10
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+35.
+Fri Sep 12 22:57:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+36.
+Fri Sep 12 22:57:16 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   14
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+37.
+Fri Sep 12 22:57:17 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+38.
+Fri Sep 12 22:57:17 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+39.
+Fri Sep 12 22:57:18 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   9
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+40.
+Fri Sep 12 22:57:19 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+41.
+Fri Sep 12 22:57:19 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   17
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 3 sec.
+
+42.
+Fri Sep 12 22:57:22 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+43.
+Fri Sep 12 22:57:23 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+44.
+Fri Sep 12 22:57:24 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+45.
+Fri Sep 12 22:57:25 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+46.
+Fri Sep 12 22:57:25 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+47.
+Fri Sep 12 22:57:26 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   10
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+48.
+Fri Sep 12 22:57:27 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+49.
+Fri Sep 12 22:57:27 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   15
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 7 sec.
+
+50.
+Fri Sep 12 22:57:34 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   16
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+51.
+Fri Sep 12 22:57:35 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+52.
+Fri Sep 12 22:57:35 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   8
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+53.
+Fri Sep 12 22:57:36 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+54.
+Fri Sep 12 22:57:37 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   12
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+55.
+Fri Sep 12 22:57:37 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+56.
+Fri Sep 12 22:57:38 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+57.
+Fri Sep 12 22:57:40 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   22
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+58.
+Fri Sep 12 22:57:41 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+59.
+Fri Sep 12 22:57:41 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+60.
+Fri Sep 12 22:57:42 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+61.
+Fri Sep 12 22:57:43 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+62.
+Fri Sep 12 22:57:43 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   11
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+63.
+Fri Sep 12 22:57:44 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+64.
+Fri Sep 12 22:57:45 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+65.
+Fri Sep 12 22:57:45 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+66.
+Fri Sep 12 22:57:46 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   22
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+67.
+Fri Sep 12 22:57:47 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+68.
+Fri Sep 12 22:57:47 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+69.
+Fri Sep 12 22:57:48 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   9
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+70.
+Fri Sep 12 22:57:49 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+71.
+Fri Sep 12 22:57:50 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   15
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+72.
+Fri Sep 12 22:57:51 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+73.
+Fri Sep 12 22:57:52 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+74.
+Fri Sep 12 22:57:53 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+75.
+Fri Sep 12 22:57:53 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   28
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 4 sec.
+
+76.
+Fri Sep 12 22:57:57 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+77.
+Fri Sep 12 22:57:57 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+78.
+Fri Sep 12 22:57:58 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+79.
+Fri Sep 12 22:57:59 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+80.
+Fri Sep 12 22:58:00 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   4
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+81.
+Fri Sep 12 22:58:00 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+82.
+Fri Sep 12 22:58:01 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+83.
+Fri Sep 12 22:58:02 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+84.
+Fri Sep 12 22:58:03 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   10
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+85.
+Fri Sep 12 22:58:04 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   14
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+86.
+Fri Sep 12 22:58:05 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+87.
+Fri Sep 12 22:58:05 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+88.
+Fri Sep 12 22:58:06 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+89.
+Fri Sep 12 22:58:07 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+90.
+Fri Sep 12 22:58:08 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+91.
+Fri Sep 12 22:58:08 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+92.
+Fri Sep 12 22:58:09 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+93.
+Fri Sep 12 22:58:10 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+94.
+Fri Sep 12 22:58:11 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   12
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+95.
+Fri Sep 12 22:58:12 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+96.
+Fri Sep 12 22:58:13 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   6
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+97.
+Fri Sep 12 22:58:14 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+98.
+Fri Sep 12 22:58:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+99.
+Fri Sep 12 22:58:16 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   9
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+100.
+Fri Sep 12 22:58:16 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+101.
+Fri Sep 12 22:58:17 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+102.
+Fri Sep 12 22:58:18 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   15
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+103.
+Fri Sep 12 22:58:19 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   10
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+104.
+Fri Sep 12 22:58:20 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   11
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+105.
+Fri Sep 12 22:58:20 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   10
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+106.
+Fri Sep 12 22:58:21 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+107.
+Fri Sep 12 22:58:22 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+108.
+Fri Sep 12 22:58:23 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+109.
+Fri Sep 12 22:58:24 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+110.
+Fri Sep 12 22:58:24 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+111.
+Fri Sep 12 22:58:25 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   18
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 9 sec.
+
+112.
+Fri Sep 12 22:58:34 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   20
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 2 sec.
+
+113.
+Fri Sep 12 22:58:36 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+114.
+Fri Sep 12 22:58:37 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   9
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+115.
+Fri Sep 12 22:58:38 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   16
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 2 sec.
+
+116.
+Fri Sep 12 22:58:40 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+117.
+Fri Sep 12 22:58:41 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+118.
+Fri Sep 12 22:58:42 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+119.
+Fri Sep 12 22:58:42 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+120.
+Fri Sep 12 22:58:43 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+121.
+Fri Sep 12 22:58:44 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 2 sec.
+
+122.
+Fri Sep 12 22:58:47 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   16
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+123.
+Fri Sep 12 22:58:48 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   10
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+124.
+Fri Sep 12 22:58:48 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+125.
+Fri Sep 12 22:58:49 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+126.
+Fri Sep 12 22:58:50 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+127.
+Fri Sep 12 22:58:51 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+128.
+Fri Sep 12 22:58:52 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+129.
+Fri Sep 12 22:58:52 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+130.
+Fri Sep 12 22:58:53 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+131.
+Fri Sep 12 22:58:54 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   14
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+132.
+Fri Sep 12 22:58:55 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   11
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+133.
+Fri Sep 12 22:58:56 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+134.
+Fri Sep 12 22:58:57 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+135.
+Fri Sep 12 22:58:58 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+136.
+Fri Sep 12 22:58:58 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+137.
+Fri Sep 12 22:58:59 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+138.
+Fri Sep 12 22:59:00 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+139.
+Fri Sep 12 22:59:01 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   12
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+140.
+Fri Sep 12 22:59:02 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   10
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+141.
+Fri Sep 12 22:59:02 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+142.
+Fri Sep 12 22:59:03 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+143.
+Fri Sep 12 22:59:04 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   12
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+144.
+Fri Sep 12 22:59:05 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   5
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+145.
+Fri Sep 12 22:59:05 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+146.
+Fri Sep 12 22:59:06 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+147.
+Fri Sep 12 22:59:07 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+148.
+Fri Sep 12 22:59:08 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+149.
+Fri Sep 12 22:59:09 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+150.
+Fri Sep 12 22:59:09 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   7
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+151.
+Fri Sep 12 22:59:10 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+152.
+Fri Sep 12 22:59:11 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+153.
+Fri Sep 12 22:59:11 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+154.
+Fri Sep 12 22:59:12 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+155.
+Fri Sep 12 22:59:13 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+156.
+Fri Sep 12 22:59:14 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+157.
+Fri Sep 12 22:59:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   8
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+158.
+Fri Sep 12 22:59:15 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   7
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+159.
+Fri Sep 12 22:59:16 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   19
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 2 sec.
+
+160.
+Fri Sep 12 22:59:18 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   18
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 2 sec.
+
+161.
+Fri Sep 12 22:59:20 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+162.
+Fri Sep 12 22:59:21 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+163.
+Fri Sep 12 22:59:21 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   11
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+164.
+Fri Sep 12 22:59:22 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   10
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+165.
+Fri Sep 12 22:59:24 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   17
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 6 sec.
+
+166.
+Fri Sep 12 22:59:30 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+167.
+Fri Sep 12 22:59:31 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+168.
+Fri Sep 12 22:59:32 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   13
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+169.
+Fri Sep 12 22:59:32 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+170.
+Fri Sep 12 22:59:33 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   7
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+171.
+Fri Sep 12 22:59:34 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   20
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 2 sec.
+
+172.
+Fri Sep 12 22:59:36 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+173.
+Fri Sep 12 22:59:37 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   13
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+174.
+Fri Sep 12 22:59:38 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+175.
+Fri Sep 12 22:59:39 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   13
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+176.
+Fri Sep 12 22:59:39 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+177.
+Fri Sep 12 22:59:40 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   14
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+178.
+Fri Sep 12 22:59:41 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+179.
+Fri Sep 12 22:59:42 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   7
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+180.
+Fri Sep 12 22:59:42 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+181.
+Fri Sep 12 22:59:43 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+182.
+Fri Sep 12 22:59:44 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+183.
+Fri Sep 12 22:59:45 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+184.
+Fri Sep 12 22:59:45 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   16
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 2 sec.
+
+185.
+Fri Sep 12 22:59:47 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+186.
+Fri Sep 12 22:59:48 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+187.
+Fri Sep 12 22:59:49 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+188.
+Fri Sep 12 22:59:50 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   14
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+189.
+Fri Sep 12 22:59:50 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   13
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+190.
+Fri Sep 12 22:59:52 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+191.
+Fri Sep 12 22:59:53 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   11
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+192.
+Fri Sep 12 22:59:54 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   9
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+193.
+Fri Sep 12 22:59:55 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+194.
+Fri Sep 12 22:59:56 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   12
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+195.
+Fri Sep 12 22:59:57 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   11
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+196.
+Fri Sep 12 22:59:57 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+197.
+Fri Sep 12 22:59:58 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+198.
+Fri Sep 12 22:59:59 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+199.
+Fri Sep 12 23:00:00 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+200.
+Fri Sep 12 23:00:01 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   9
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+201.
+Fri Sep 12 23:00:01 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+202.
+Fri Sep 12 23:00:02 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+203.
+Fri Sep 12 23:00:03 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   13
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+204.
+Fri Sep 12 23:00:04 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   10
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+205.
+Fri Sep 12 23:00:05 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   24
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+206.
+Fri Sep 12 23:00:06 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   15
+  Acc states:    4
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+207.
+Fri Sep 12 23:00:06 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+208.
+Fri Sep 12 23:00:07 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+209.
+Fri Sep 12 23:00:08 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   9
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+210.
+Fri Sep 12 23:00:09 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+211.
+Fri Sep 12 23:00:10 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+212.
+Fri Sep 12 23:00:10 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   12
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+213.
+Fri Sep 12 23:00:11 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   16
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+214.
+Fri Sep 12 23:00:12 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+215.
+Fri Sep 12 23:00:13 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   8
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+216.
+Fri Sep 12 23:00:14 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+217.
+Fri Sep 12 23:00:15 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+218.
+Fri Sep 12 23:00:16 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+219.
+Fri Sep 12 23:00:16 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        3
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+220.
+Fri Sep 12 23:00:17 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+221.
+Fri Sep 12 23:00:18 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+222.
+Fri Sep 12 23:00:19 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+223.
+Fri Sep 12 23:00:19 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+224.
+Fri Sep 12 23:00:20 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   14
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+225.
+Fri Sep 12 23:00:21 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+226.
+Fri Sep 12 23:00:22 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+227.
+Fri Sep 12 23:00:22 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   17
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 2 sec.
+
+228.
+Fri Sep 12 23:00:24 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   7
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+229.
+Fri Sep 12 23:00:25 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+230.
+Fri Sep 12 23:00:26 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   14
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+231.
+Fri Sep 12 23:00:27 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   10
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+232.
+Fri Sep 12 23:00:28 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+233.
+Fri Sep 12 23:00:29 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   15
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 5 sec.
+
+234.
+Fri Sep 12 23:00:35 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   10
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+235.
+Fri Sep 12 23:00:35 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+236.
+Fri Sep 12 23:00:36 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   8
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+237.
+Fri Sep 12 23:00:37 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+238.
+Fri Sep 12 23:00:38 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+239.
+Fri Sep 12 23:00:38 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+240.
+Fri Sep 12 23:00:39 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        4
+  Transitions:   13
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+241.
+Fri Sep 12 23:00:40 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        3
+  Transitions:   13
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+242.
+Fri Sep 12 23:00:42 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+243.
+Fri Sep 12 23:00:42 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+244.
+Fri Sep 12 23:00:43 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+245.
+Fri Sep 12 23:00:44 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   14
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+246.
+Fri Sep 12 23:00:45 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+247.
+Fri Sep 12 23:00:46 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        4
+  Transitions:   14
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+248.
+Fri Sep 12 23:00:48 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+249.
+Fri Sep 12 23:00:48 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   4
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+250.
+Fri Sep 12 23:00:49 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   9
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+251.
+Fri Sep 12 23:00:50 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   11
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+252.
+Fri Sep 12 23:00:51 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   11
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 2 sec.
+
+253.
+Fri Sep 12 23:00:53 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 1
+  States:        4
+  Transitions:   6
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+254.
+Fri Sep 12 23:00:54 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   5
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+255.
+Fri Sep 12 23:00:55 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+256.
+Fri Sep 12 23:00:55 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        3
+  Transitions:   6
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+257.
+Fri Sep 12 23:00:56 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        4
+  Transitions:   20
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+258.
+Fri Sep 12 23:00:57 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+259.
+Fri Sep 12 23:00:58 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   3
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+260.
+Fri Sep 12 23:00:59 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        2
+  Transitions:   4
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+261.
+Fri Sep 12 23:00:59 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   7
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+262.
+Fri Sep 12 23:01:00 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   14
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+263.
+Fri Sep 12 23:01:01 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 2
+  States:        4
+  Transitions:   9
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+264.
+Fri Sep 12 23:01:02 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        2
+  Transitions:   3
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+265.
+Fri Sep 12 23:01:02 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        3
+  Transitions:   5
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+266.
+Fri Sep 12 23:01:03 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   6
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+267.
+Fri Sep 12 23:01:04 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   9
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+268.
+Fri Sep 12 23:01:05 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 2
+  States:        2
+  Transitions:   9
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+269.
+Fri Sep 12 23:01:05 CEST 2014
+Generating random automaton
+  Alphabet:      propositional
+  Alphabet size: 1
+  States:        4
+  Transitions:   11
+  Acc states:    3
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+270.
+Fri Sep 12 23:01:06 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 3
+  States:        3
+  Transitions:   7
+  Acc states:    2
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+271.
+Fri Sep 12 23:01:07 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        3
+  Transitions:   12
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 1 sec.
+
+272.
+Fri Sep 12 23:01:09 CEST 2014
+Generating random automaton
+  Alphabet:      classical
+  Alphabet size: 4
+  States:        2
+  Transitions:   2
+  Acc states:    1
+Complementing with piterman... done
+Complementing with fribourg... done
+Checking equivalence... true
+Elapsed time: 0 sec.
+
+273.
+Fri Sep 12 23:01:09 CEST 2014
+Generating random automaton

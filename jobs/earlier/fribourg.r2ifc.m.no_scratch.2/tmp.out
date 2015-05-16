@@ -1,0 +1,13 @@
+Application start failed.
+java.lang.IllegalArgumentException: plug-in ch.unifr.goal.complement disabled internally as it wasn't properly initialized
+	at org.java.plugin.standard.StandardPluginManager.getPluginClassLoader(StandardPluginManager.java:324)
+	at org.svvrl.goal.core.CorePlugin.loadComplementConstructions(CorePlugin.java:480)
+	at org.svvrl.goal.core.CorePlugin.initApplication(CorePlugin.java:128)
+	at org.java.plugin.boot.DefaultApplicationInitializer.initApplication(DefaultApplicationInitializer.java:322)
+	at org.java.plugin.boot.Boot.initApplication(Boot.java:538)
+	at org.java.plugin.boot.Boot.boot(Boot.java:343)
+	at org.java.plugin.boot.Boot.main(Boot.java:243)
+
+real	0m8.272s
+user	0m2.286s
+sys	0m0.168s

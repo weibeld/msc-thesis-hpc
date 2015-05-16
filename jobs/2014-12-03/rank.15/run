@@ -1,0 +1,1 @@
+submit.sh -c 72:00:00 -q mpi.q -n ea ~/scripts/complement/complement.sh -a "rank" -d ~/data/15.tar.gz -t 600 -m 1G -o

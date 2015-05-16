@@ -1,0 +1,18 @@
+# Starting date:             2014-09-23 21:38:17
+# Cluster job ID:            8700492
+# Cluster node:              hnode13
+# Cluster queue:             mpi.q
+# Complementation algorithm: piterman -eq -macc -sp -ro -r 
+# Memory limit (Java heap):  1G
+# Timeout (CPU time):        600s
+states	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+489	N	N	2.383	4.371	4.111	0.260	1.0	0.1	s15_t1.0_a0.1_001.gff
+282	N	N	2.121	3.851	3.642	0.209	1.0	0.1	s15_t1.0_a0.1_002.gff
+24	N	N	1.545	2.762	2.564	0.198	1.0	0.1	s15_t1.0_a0.1_003.gff
+283	N	N	2.272	4.577	4.331	0.246	1.0	0.1	s15_t1.0_a0.1_004.gff
+1058	N	N	2.932	6.071	5.792	0.279	1.0	0.1	s15_t1.0_a0.1_005.gff
+43	N	N	1.620	2.875	2.713	0.162	1.0	0.1	s15_t1.0_a0.1_006.gff
+86	N	N	1.750	3.154	2.971	0.183	1.0	0.1	s15_t1.0_a0.1_007.gff
+62	N	N	1.681	3.022	2.834	0.188	1.0	0.1	s15_t1.0_a0.1_008.gff
+155	N	N	1.944	3.543	3.336	0.207	1.0	0.1	s15_t1.0_a0.1_009.gff
+105	N	N	1.789	3.274	3.078	0.196	1.0	0.1	s15_t1.0_a0.1_010.gff

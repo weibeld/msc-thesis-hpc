@@ -1,0 +1,19 @@
+# Starting date:             2014-09-24 22:58:10
+# Cluster job ID:            8725352
+# Cluster node:              hnode45
+# Cluster queue:             short.q
+# Complementation algorithm: fribourg -r2ifc -m
+# Data:                      small.tar.gz
+# Memory limit (Java heap):  1G
+# Timeout (CPU time):        600s
+states	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+838	N	N	2.002	4.293	4.106	0.187	1.0	0.1	s15_t1.0_a0.1_001.gff
+469	N	N	1.789	3.797	3.652	0.145	1.0	0.1	s15_t1.0_a0.1_002.gff
+32	N	N	1.187	2.282	2.135	0.147	1.0	0.1	s15_t1.0_a0.1_003.gff
+1072	N	N	2.280	4.873	4.684	0.189	1.0	0.1	s15_t1.0_a0.1_004.gff
+1887	N	N	2.915	6.558	6.295	0.263	1.0	0.1	s15_t1.0_a0.1_005.gff
+74	N	N	1.239	2.383	2.247	0.136	1.0	0.1	s15_t1.0_a0.1_006.gff
+504	N	N	1.751	3.822	3.673	0.149	1.0	0.1	s15_t1.0_a0.1_007.gff
+100	N	N	1.275	2.439	2.285	0.154	1.0	0.1	s15_t1.0_a0.1_008.gff
+353	N	N	1.744	3.494	3.344	0.150	1.0	0.1	s15_t1.0_a0.1_009.gff
+225	N	N	1.585	2.993	2.851	0.142	1.0	0.1	s15_t1.0_a0.1_010.gff

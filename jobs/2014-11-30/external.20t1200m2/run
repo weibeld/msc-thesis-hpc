@@ -1,0 +1,1 @@
+complement_batch.sh -c 72:00:00 -q mpi.q -n ea ~/data/20.tar.gz 1200 2G

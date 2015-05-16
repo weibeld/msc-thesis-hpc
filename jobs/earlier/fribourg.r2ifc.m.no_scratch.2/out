@@ -1,0 +1,17 @@
+# Starting date:             2014-09-22 23:35:06
+# Cluster job ID:            8664285
+# Cluster node:              enode17  
+# Complementation algorithm: fribourg -r2ifc -m
+# Memory limit (Java heap):  1G
+# Timeout (CPU time):        600s
+states	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+838	N	N	12.177	6.315	6.040	0.275	1.0	0.1	s15_t1.0_a0.1_001.gff
+469	N	N	21.091	4.727	4.508	0.219	1.0	0.1	s15_t1.0_a0.1_002.gff
+32	N	N	8.388	2.918	2.731	0.187	1.0	0.1	s15_t1.0_a0.1_003.gff
+1072	N	N	7.818	6.009	5.753	0.256	1.0	0.1	s15_t1.0_a0.1_004.gff
+1887	N	N	9.376	7.550	7.240	0.310	1.0	0.1	s15_t1.0_a0.1_005.gff
+0	N	N	12.625	1.802	1.691	0.111	1.0	0.1	s15_t1.0_a0.1_006.gff
+0	N	N	11.238	1.950	1.856	0.094	1.0	0.1	s15_t1.0_a0.1_007.gff
+0	N	N	5.151	2.724	2.562	0.162	1.0	0.1	s15_t1.0_a0.1_008.gff
+0	N	N	14.208	1.792	1.711	0.081	1.0	0.1	s15_t1.0_a0.1_009.gff
+0	N	N	8.272	2.454	2.286	0.168	1.0	0.1	s15_t1.0_a0.1_010.gff

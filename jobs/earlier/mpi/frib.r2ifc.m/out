@@ -1,0 +1,18 @@
+# Starting date:             2014-09-23 21:38:48
+# Cluster job ID:            8700493
+# Cluster node:              hnode09
+# Cluster queue:             mpi.q
+# Complementation algorithm: fribourg -r2ifc -m 
+# Memory limit (Java heap):  1G
+# Timeout (CPU time):        600s
+states	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+838	N	N	2.264	4.628	4.402	0.226	1.0	0.1	s15_t1.0_a0.1_001.gff
+469	N	N	2.022	4.101	3.886	0.215	1.0	0.1	s15_t1.0_a0.1_002.gff
+32	N	N	1.437	2.658	2.477	0.181	1.0	0.1	s15_t1.0_a0.1_003.gff
+1072	N	N	2.551	5.231	4.990	0.241	1.0	0.1	s15_t1.0_a0.1_004.gff
+1887	N	N	3.119	6.822	6.553	0.269	1.0	0.1	s15_t1.0_a0.1_005.gff
+74	N	N	1.494	2.703	2.525	0.178	1.0	0.1	s15_t1.0_a0.1_006.gff
+504	N	N	2.021	4.128	3.918	0.210	1.0	0.1	s15_t1.0_a0.1_007.gff
+100	N	N	1.606	2.796	2.633	0.163	1.0	0.1	s15_t1.0_a0.1_008.gff
+353	N	N	2.025	3.828	3.631	0.197	1.0	0.1	s15_t1.0_a0.1_009.gff
+225	N	N	1.734	3.328	3.128	0.200	1.0	0.1	s15_t1.0_a0.1_010.gff

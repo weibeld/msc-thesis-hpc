@@ -1,0 +1,14 @@
+# Starting date:             2014-12-15 20:00:11
+# Cluster job name:          fribourg.m1.michel
+# Cluster job ID:            185474
+# Cluster node:              jnode03
+# Cluster queue:             highmem.q
+# Complementation algorithm: fribourg -m1
+# Data:                      michel.tar.gz
+# Memory limit (Java heap):  16G
+# Timeout (CPU time):        0s
+states	t_out	m_out	real_t	tcpu_t	ucpu_t	scpu_t	dt	da	file
+44	N	N	1.427	2.441	2.280	0.161			michel_n1.gff
+448	N	N	2.002	3.688	3.498	0.190			michel_n2.gff
+5506	N	N	15.644	19.580	18.827	0.753			michel_n3.gff
+81765	N	N	7988.888	8017.128	8012.190	4.938			michel_n4.gff
