@@ -1,0 +1,15 @@
+Additions to the main runs in ~/jobs/2015-05-16
+
+Internal:
+  - GOAL
+    - fribourg -m1 -r2c -c     (is it better than -m1 -r2c?)
+    - fribourg -m1 -r2c -c -r  (apply -r to best of -m1 -r2c and -m1 -r2c -c)
+    - fribourg -m1 -r2c -r     ("       ")
+  - Michel
+    - fribourg -m1 -m2 -r2c    (is the best version for Michel automata)
+    - fribourg -m1 -m2 -r2c -r (test how many unreachable and dead states)
+    - fribourg -r              ("       ")
+
+External (both, GOAL and Michel):
+  - piterman -eq -sim -ro -r   (test if different from -eq -sim -ro)
+  - piterman -eq -ro           (dropping -sim which has similar effect as -r)
